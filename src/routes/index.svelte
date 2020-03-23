@@ -16,7 +16,6 @@
 
 <style>
   h1,
-  figure,
   p {
     text-align: center;
     margin: 0 auto;
@@ -27,16 +26,6 @@
     text-transform: uppercase;
     font-weight: 700;
     margin: 0 0 0.5em 0;
-  }
-
-  figure {
-    margin: 0 0 1em 0;
-  }
-
-  img {
-    width: 100%;
-    max-width: 400px;
-    margin: 0 0 1em 0;
   }
 
   p {
@@ -57,15 +46,25 @@
   </script>
 </svelte:head>
 
-<h1>Great success!</h1>
+<h1>Make a Mask</h1>
 
-<figure>
-  <img alt="Borat" src="great-success.png" />
-  <figcaption>HIGH FIVE!</figcaption>
-</figure>
-
+<p>Find us on Facebook</p>
 <p>
-  <strong>
-    Try editing this file (src/routes/index.svelte) to test live reloading.
-  </strong>
+  Help keep our Healthcare workers safe in the Austin, Texas area. Personal
+  Protective Equipment, especially masks are in dire need for their safety and
+  can't be purchased through retailers.
 </p>
+<em>...to become large button/links</em>
+<a href="providers">Healthcare Providers</a>
+|
+<a href="creators">Mask Creators</a>
+
+<h2>In the News</h2>
+
+<p>news blocks</p>
+<p>news blocks</p>
+
+<div id="faq">
+  <h2>Frequently Asked Questions</h2>
+  <p>etc</p>
+</div>

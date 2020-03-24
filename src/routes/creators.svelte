@@ -37,6 +37,27 @@ ol li::before {
   font-family: 'Abril Fatface', serif;
   line-height: 1;
 }
+.neumorph {
+  padding:10px;
+  margin:10px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  height:60px;
+  width:200px;
+background: #ffffff;
+border-radius: 28px;
+background: #f0f0f0;
+box-shadow:  10px 10px 20px #d3d3d3, 
+             -10px -10px 20px #ffffff;
+transition:all 0.25s ease-in-out; 
+}
+.neomorph:hover {
+  border-radius: 28px;
+background: linear-gradient(145deg, #d8d8d8, #ffffff);
+box-shadow:  10px 10px 20px #d3d3d3, 
+             -10px -10px 20px #ffffff;
+}
 
 </style>
 <svelte:head>
@@ -86,7 +107,7 @@ ol li::before {
       PROCESS SO WE CAN EXPEDITE GETTING THEM OUT.
     </p>
 
-    <a href="https://forms.gle/CrjJDwR6KbVhyLHC9">Log Your Contribution</a>
+    <a class="neumorph" href="https://forms.gle/CrjJDwR6KbVhyLHC9">Log Your Contribution</a>
     </div>
   </li>
   <li>

@@ -8,10 +8,13 @@
 :global(a) {
 	color:rgb(19, 153, 230);
 }
+:global(body) {
+	background-color:#f0f0f0;
+}
 	main {
 		position: relative;
 		max-width: 56em;
-		background-color: white;
+		background-color: none;
 		padding: 2em;
 		margin: 0 auto;
 		box-sizing: border-box;

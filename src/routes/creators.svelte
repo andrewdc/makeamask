@@ -48,20 +48,25 @@ ol li::before {
   padding:10px;
   margin:10px;
   display:flex;
+  flex-direction:column;
   justify-content:center;
   align-items:center;
-  height:60px;
-  width:200px;
   background: #ffffff;
   border-radius: 28px;
   background: #f0f0f0;
   box-shadow:  10px 10px 20px #d3d3d3, -10px -10px 20px #ffffff;
-  transition: all 0.25s ease-in-out; 
+  transition: all 0.5s ease-in-out; 
+  text-decoration:none;
+  font-size:20px;
+  height:90px;
+}
+.soft img {
+  width:50px;
 }
 .soft:hover {
   border-radius: 28px;
-  background: linear-gradient(145deg, #d8d8d8, #ffffff);
-  box-shadow:  10px 10px 20px #d3d3d3, -10px -10px 20px #ffffff;
+background: linear-gradient(145deg, #ffffff, #d8d8d8);
+box-shadow:  10px 10px 20px #d3d3d3, -10px -10px 20px #ffffff;
   }
   .learn {
     display:flex;
@@ -79,7 +84,7 @@ ol li::before {
 
 <h2>How can I help create Masks?</h2>
 
-<h3 id="#learn" class="learn"><img src="/icons/011-design.svg"> Sewing Tutorials</h3>
+<h3 id="#learn" class="learn"><img src="/icons/011-design.svg" alt="sewing template"> Sewing Tutorials</h3>
 <ul>
 <li><a
   href="https://www.facebook.com/stephanie.angle/posts/10107637284178223?__tn__=K-R">
@@ -120,7 +125,9 @@ ol li::before {
       PROCESS SO WE CAN EXPEDITE GETTING THEM OUT.
     </p>
 
-    <a class="soft" href="https://forms.gle/CrjJDwR6KbVhyLHC9">Log Your Contribution</a>
+    <a class="soft" href="https://forms.gle/CrjJDwR6KbVhyLHC9">
+    <img src="/icons/005-dressmaker.svg" alt="measuring tape" />
+    Log Your Contribution</a>
     </div>
   </li>
   <li>

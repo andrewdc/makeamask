@@ -1,6 +1,17 @@
 <script>
-  import CopyToClipboard from "../../src/components/CopyToClipboard.svelte";
+  import MediaCard from '../components/MediaCard.svelte';
 </script>
+
+<style>
+ul, li {
+  list-style: none;
+  margin:0;
+  padding:0;
+}
+li {
+  padding:8px;
+}
+</style>
 
 <svelte:head>
   <title>Media Help Needed</title>
@@ -47,11 +58,26 @@
 <ul>
   <!-- NEWS BLOCK -->
   <li>
-    <h4>KXAN</h4>
-    https://www.kxan.com/contact-us/ Corona virus related news tips:
-    https://www.kxan.com/report-a-coronavirus-related-news-tip/ Facebook:
-    https://www.facebook.com/KXANnews/ Twitter: @KXAN_news
-    https://twitter.com/KXAN_News
+  <MediaCard>
+    <span slot="title">KXAN</span>
+    <span slot="special">
+    Corona virus related news tips: <br>
+    <a href="https://www.kxan.com/report-a-coronavirus-related-news-tip/">https://www.kxan.com/report-a-coronavirus-related-news-tip/</a>
+    </span>
+      <span slot="facebook"><a href="https://www.kxan.com/report-a-coronavirus-related-news-tip/">https://www.kxan.com/report-a-coronavirus-related-news-tip/</a></span>
+    <span slot="twitter"><a href="https://twitter.com/KXAN_News">@KXAN_news</a><a href="https://twitter.com/KXAN_News">https://twitter.com/KXAN_News</a></span>
+    <span slot="link"><a href="https://www.kxan.com/contact-us/">https://www.kxan.com/contact-us/</a></span>
+
+    </MediaCard>
+
+  <MediaCard>
+    <span slot="title">KVUE</span>
+      <span slot="facebook"><a href=" https://www.facebook.com/KVUEinsider/"> https://www.facebook.com/KVUEinsider/</a></span>
+    <span slot="twitter"><a href="https://twitter.com/KVUE">@KVUE</a><a href="https://twitter.com/KVUE">https://twitter.com/KVUE</a></span>
+    <span slot="link"><a href="https://www.kvue.com/contact-us">https://www.kvue.com/contact-us</a></span>
+
+    </MediaCard>
+     
   </li>
 </ul>
 
@@ -59,3 +85,4 @@
 <h3>Print</h3>
 
 <p>etc</p>
+

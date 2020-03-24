@@ -233,7 +233,8 @@ Currently we are looking for a company in Austin that we could connect with to d
  <li>Invite your friends to like: Click on the INVITE button and send to all your fb friends</li>
 <li>
 Use the hashtag <strong>#MakeAMaskSewers</strong> and tag yourself anytime you’re referencing Make-A-Mask<br>
-Type <strong>@Make-A-Mask</strong> to create a blue hyperlink that others can click on to get to our page easily
+Type <strong>@Make-A-Mask</strong> to create a blue hyperlink that others can click on to get to our page easily.<br>
+ <a href="https://twitter.com/intent/tweet?button_hashtag=MakeAMaskSewers&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-show-count="false">Tweet #MakeAMaskSewers</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </li>
 
 Make sure everyone visits the FAQ page by sharing this link: <a href="#">(TODO link to here)</a>

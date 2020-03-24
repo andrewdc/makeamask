@@ -237,8 +237,8 @@ Type <strong>@Make-A-Mask</strong> to create a blue hyperlink that others can cl
  <a href="https://twitter.com/intent/tweet?button_hashtag=MakeAMaskSewers&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-show-count="false">Tweet #MakeAMaskSewers</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </li>
 
-Make sure everyone visits the FAQ page by sharing this link: <a href="#">(TODO link to here)</a>
+Make sure everyone visits the FAQ page by sharing this link: <a href="/">(TODO link to here)</a>
 </ul>
 
 <p>A message from Jennifer:</p>
-<p>There are not words I can put down on paper that could possibly express my gratitude to all of those that are helping with this project.  I have shared the exciting news with my own employees at Victory Medical and networked with dozens and dozens of clinics already to find out their needs and coordinate a distribution plan. Thank you for HELPING US… HELP YOU. May all your families stay safe and in good health. My thoughts and well wishes are with each of you and your families.  🙏😷❤️😊</p>
+<p>There are not words I can put down on paper that could possibly express my gratitude to all of those that are helping with this project.  I have shared the exciting news with my own employees at Victory Medical and networked with dozens and dozens of clinics already to find out their needs and coordinate a distribution plan. Thank you for HELPING US… HELP YOU. May all your families stay safe and in good health. My thoughts and well wishes are with each of you and your families.  🙏😷❤😊</p>

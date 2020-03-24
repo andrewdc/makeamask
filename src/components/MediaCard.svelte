@@ -10,7 +10,7 @@
 		margin:0 8px 8px 8px;
 	transition:all 0.15s ease-in-out;
 	}
-	.media:hover {
+	.media-card:hover {
 		transform: scale(1.05);
 	}
 

@@ -15,6 +15,7 @@
 	}
 
 	h2 {
+		font-size:1.8em;
 		padding: 0 0 0.2em 0;
 		margin: 0 0 1em 0;
 		border-bottom: 1px solid #55b9f3;

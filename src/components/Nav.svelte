@@ -3,15 +3,17 @@
 </script>
 
 <style>
+
   nav {
     border-bottom: 1px solid rgba(35,10,1,0.29);
-    font-weight: 300;
+    font-weight: 400;
     padding: 0 1em;
   }
 
   ul {
     margin: 0;
     padding: 0;
+    display:flex;
   }
 
   /* clearfix */
@@ -23,12 +25,11 @@
 
   li {
     display: block;
-    float: left;
+    flex:1 0 auto;
   }
 
   [aria-current] {
     position: relative;
-    display: inline-block;
   }
 
   [aria-current]::after {
@@ -42,10 +43,27 @@
   }
 
   a {
+    position: relative;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
     text-decoration: none;
     padding: 1em 0.5em;
-    display: block;
     color:rgb(19, 153, 230);
+    text-align:center;
+  }
+  a:hover:after {
+    position: absolute;
+    content: "";
+    width: calc(100% - 1em);
+    height: 2px;
+    background-color: rgb(19, 153, 230);
+    display: block;
+    bottom: -1px;
+  }
+  img {
+    width:50px;
   }
 </style>
 
@@ -53,31 +71,31 @@
   <ul>
     <li>
       <a aria-current={segment === undefined ? 'page' : undefined} href=".">
-        Home
+         <img src="/icons/019-cloth.svg"> Home
       </a>
     </li>
     <li>
       <a
         aria-current={segment === 'creators' ? 'page' : undefined}
         href="creators">
-        #makeAMaskSewers
+        <img src="/icons/006-fashion-1.svg"> Make a Mask
       </a>
     </li>
     <li>
       <a
         aria-current={segment === 'providers' ? 'page' : undefined}
         href="providers">
-        Request Masks
+        <img src="/icons/012-appointment.svg">Request Masks
       </a>
     </li>
     <li>
       <a aria-current={segment === 'media' ? 'page' : undefined} href="media">
-        Contact Media
+        <img src="/icons/004-clothes-1.svg"> Contact Media
       </a>
     </li>
     <li>
       <a aria-current={segment === 'about' ? 'page' : undefined} href="about">
-        About
+        <img src="/icons/013-button.svg">About
       </a>
     </li>
 

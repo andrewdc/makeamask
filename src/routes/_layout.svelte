@@ -11,6 +11,12 @@
 :global(body) {
 	background-color:#f0f0f0;
 }
+
+:global(h1, h2, h3, h4, h5, h6) {
+	font-family: alegreya, serif;
+font-style: normal;
+font-weight: 400;
+}
 	main {
 		position: relative;
 		max-width: 56em;

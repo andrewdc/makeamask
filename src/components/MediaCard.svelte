@@ -11,7 +11,7 @@
 	transition:all 0.15s ease-in-out;
 	}
 	.media-card:hover {
-		transform: scale(1.05);
+		box-shadow: 0 0 6px 4px rgba(46, 147, 254, 0.4)
 	}
 
 	h2 {

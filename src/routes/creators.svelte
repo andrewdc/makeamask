@@ -7,13 +7,19 @@
   display:flex;
   margin:20px 0;
 }
+:global(h3) {
+font-size:1.6em;
+font-weight:400;
+padding: 0.6em 0 0.6em 0;
+margin: 0 0 1em 0;
+}
+
 :global(h4) {
 font-size:1.5em;
 border-bottom:1px solid #55b9f3;
 padding: 0 0 0.2em 0;
 margin: 0 0 1em 0;
 }
-@import url('https://fonts.googleapis.com/css?family=Abril+Fatface');
 
 ol {
   list-style: none;
@@ -35,7 +41,7 @@ ol li::before {
   font-weight: bold;
   font-size: 3rem;
   margin-right: 0.5rem;
-  font-family: 'Abril Fatface', serif;
+  font-family: 'alegreya', serif;
   line-height: 1;
 }
 .soft {
@@ -57,6 +63,14 @@ ol li::before {
   background: linear-gradient(145deg, #d8d8d8, #ffffff);
   box-shadow:  10px 10px 20px #d3d3d3, -10px -10px 20px #ffffff;
   }
+  .learn {
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+  }
+  .learn img {
+    width:50px;
+  }
 </style>
 
 <svelte:head>
@@ -65,7 +79,7 @@ ol li::before {
 
 <h2>How can I help create Masks?</h2>
 
-<h3 id="#learn">Sewing Tutorials</h3>
+<h3 id="#learn" class="learn"><img src="/icons/011-design.svg"> Sewing Tutorials</h3>
 <ul>
 <li><a
   href="https://www.facebook.com/stephanie.angle/posts/10107637284178223?__tn__=K-R">

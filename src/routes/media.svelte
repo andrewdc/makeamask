@@ -160,7 +160,8 @@
       <span slot="link"><a href="https://www.statesman.com/contact">https://www.statesman.com/contact</a></span>
       <span slot="facebook"><a href="https://www.facebook.com/statesman/">https://www.facebook.com/statesman/</a></span>
       <span slot="twitter">
-        <a href=" https://twitter.com/statesman ">@statesman</a> 
+      <a href="https://twitter.com/intent/tweet?screen_name=statesman&ref_src=twsrc%5Etfw" class="twitter-mention-button" data-size="large" data-dnt="true" data-show-count="false">Tweet to @statesman</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> <br>
+        <!-- <a href=" https://twitter.com/statesman ">@statesman</a>  -->
        <a href=" https://twitter.com/statesman "> https://twitter.com/statesman</a>
       </span>
     </MediaCard>

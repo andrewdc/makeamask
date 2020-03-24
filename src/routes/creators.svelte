@@ -8,7 +8,7 @@
 }
 :global(h4) {
 font-size:1.5em;
-border-bottom:1px solid red;
+border-bottom:1px solid #55b9f3;
 padding: 0 0 0.2em 0;
 margin: 0 0 1em 0;
 }
@@ -184,3 +184,34 @@ Austin, Texas 78704
   supply the clinics, especially urgent care facilities, as that is where a
   majority of the walkin patients will be going for screening and testing.
 </p>
+<h3>WHAT IF I HAVE FABRIC AND OTHER SUPPLIES BUT I’M NOT ABLE TO SEW?</h3>
+
+<p>At this time, because of the HUGE response from the #MakeAMaskSewers we are not accepting materials that have not been completed into masks. You are welcome to post your supplies on the Make-A-Mask facebook page to see if you can network with someone that needs supplies to sew.</p>
+
+<h3>WHAT DOES MAKE-A-MASK NEED OUTSIDE OF SEWN MASKS? (check back often)</h3>
+<ul>
+<li>
+Currently we are looking for a company in Austin that we could connect with to do industrial washing of the masks as well as helping to coordinate the pick up of dirty masks and the drop off of cleans masks to the facilities.  
+</li>
+
+<li>We are also looking for a way to tap into the Austin Media Market. Bloggers, radio, News stations, print etc…  if you have any connections within that industry, please contact us through FB messenger or email at  
+<a href="mailto:makeamaskforhealthcare@gmail.com?subject=Media Information for Make a Mask">makeamaskforhealthcare@gmail.com</a>
+</li>
+</ul>
+
+<h3>I WOULD LIKE TO SHARE YOUR INFORMATION WITH MY FRIENDS, FAMILY, AND OTHER ORGANIZATIONS, HOW DO I DO THAT?</h3>
+<ul>
+<li>Help to notify the media of our efforts : <a href="media">LOCAL AUSTIN MEDIA CONTACTS</a></li>
+
+<li>Share the page:  Pinned to the top of the page Make-A-Mask page is a quick overview of what this group is all about.</li> We recommend clicking the share button from there
+ <li>Invite your friends to like: Click on the INVITE button and send to all your fb friends</li>
+<li>
+Use the hashtag <strong>#MakeAMaskSewers</strong> and tag yourself anytime you’re referencing Make-A-Mask<br>
+Type <strong>@Make-A-Mask</strong> to create a blue hyperlink that others can click on to get to our page easily
+</li>
+
+Make sure everyone visits the FAQ page by sharing this link: <a href="#">(TODO link to here)</a>
+</ul>
+
+<p>A message from Jennifer:</p>
+<p>There are not words I can put down on paper that could possibly express my gratitude to all of those that are helping with this project.  I have shared the exciting news with my own employees at Victory Medical and networked with dozens and dozens of clinics already to find out their needs and coordinate a distribution plan. Thank you for HELPING US… HELP YOU. May all your families stay safe and in good health. My thoughts and well wishes are with each of you and your families.  🙏😷❤️😊</p>

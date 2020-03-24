@@ -5,6 +5,9 @@
 </script>
 
 <style>
+:global(a) {
+	color:rgb(19, 153, 230);
+}
 	main {
 		position: relative;
 		max-width: 56em;

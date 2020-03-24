@@ -1,14 +1,17 @@
 <script>
   import { tick, onMount } from "svelte";
   let slotContent = "";
-  let valueCopy = null;
+// let value;
+// onMount(()=> {
+//   value = slotContent.innerHtml;
+// })
+  
 
-  let value = slotContent.textContent;
-
-  let areaDom;
-  $: console.log(slotContent);
-  function copy() {
-    let copytext = slotContent.textContent;
+  const copy = function(){
+    let value = slotContent.innerText;
+   let copied = value.createTextRange();
+    copied.execCommand("Copy");
+    console.log(copied);
   }
 </script>
 

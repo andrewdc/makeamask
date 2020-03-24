@@ -1,5 +1,6 @@
 <script>
   import ContactCard from "../components/ContactCard.svelte";
+  import Button from "../components/Button.svelte";
 </script>
 
 <style>
@@ -44,30 +45,6 @@ ol li::before {
   font-family: 'alegreya', serif;
   line-height: 1;
 }
-.soft {
-  padding:10px;
-  margin:10px;
-  display:flex;
-  flex-direction:column;
-  justify-content:center;
-  align-items:center;
-  background: #ffffff;
-  border-radius: 28px;
-  background: #f0f0f0;
-  box-shadow:  10px 10px 20px #d3d3d3, -10px -10px 20px #ffffff;
-  transition: all 0.5s ease-in-out; 
-  text-decoration:none;
-  font-size:20px;
-  height:90px;
-}
-.soft img {
-  width:50px;
-}
-.soft:hover {
-  border-radius: 28px;
-background: linear-gradient(145deg, #ffffff, #d8d8d8);
-box-shadow:  10px 10px 20px #d3d3d3, -10px -10px 20px #ffffff;
-  }
   .learn {
     display:flex;
     flex-direction:column;
@@ -124,10 +101,12 @@ box-shadow:  10px 10px 20px #d3d3d3, -10px -10px 20px #ffffff;
       ALSO, INCLUDE A NOTE IF THEY HAVE BEEN LAUNDERED “AFTER” THE SEWING
       PROCESS SO WE CAN EXPEDITE GETTING THEM OUT.
     </p>
-
-    <a class="soft" href="https://forms.gle/CrjJDwR6KbVhyLHC9">
-    <img src="/icons/005-dressmaker.svg" alt="measuring tape" />
-    Log Your Contribution</a>
+<Button href="https://forms.gle/CrjJDwR6KbVhyLHC9">
+    <img slot="icon" src="/icons/005-dressmaker.svg" style="width:50px;" alt="measuring tape" />
+    <span slot="text">  Log Your Contribution</span>
+</Button>
+    <!-- <a class="soft" href="https://forms.gle/CrjJDwR6KbVhyLHC9">
+    </a> -->
     </div>
   </li>
   <li>

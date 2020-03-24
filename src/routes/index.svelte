@@ -1,4 +1,5 @@
 <script>
+ import Button from "../components/Button.svelte";
   import { onMount } from "svelte";
 
   onMount(() => {
@@ -31,7 +32,11 @@
   p {
     margin: 1em auto;
   }
-
+.buttons {
+  display:flex;
+  align-items:center;
+  justify-content: stretch;
+}
   @media (min-width: 480px) {
     h1 {
       font-size: 4em;
@@ -54,11 +59,21 @@
   Protective Equipment, especially masks are in dire need for their safety and
   can't be purchased through retailers.
 </p>
-<em>...to become large button/links</em>
-<a href="providers">Healthcare Providers</a>
-|
-<a href="creators">Mask Creators</a>
+<div class="buttons">
 
+
+<Button href="providers">
+  <img slot="icon" src="/icons/021-mask.svg" style="width:50px;" alt="mask" />
+    <span slot="text">  Healthcare Providers</span>
+</Button>
+
+
+<Button href="creators">
+  <img slot="icon" src="/icons/002-fashion.svg" style="width:50px;" alt="spool" />
+    <span slot="text">  Mask Creators</span>
+</Button>
+
+</div>
 <h2>In the News</h2>
 
 <p>news blocks</p>

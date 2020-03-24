@@ -46,17 +46,23 @@ ol li::before {
 <h2>How can I help create Masks?</h2>
 
 <h3 id="#learn">Sewing Tutorials</h3>
-<a
+<ul>
+<li><a
   href="https://www.facebook.com/stephanie.angle/posts/10107637284178223?__tn__=K-R">
   Learn to sew an N95 cover
-</a>
-<a
+</a></li>
+<li><a
   href="https://drive.google.com/file/d/1Gnmp7qOThe0jHu9us4_clfIKGAv-fBML/view?usp=sharing">
   Click to download pdf on how to sew an N95 cover
-</a>
-<a href="https://www.facebook.com/mark.lewis.127/videos/3447045531977409/">
+</a></li>
+<li><a href="https://www.facebook.com/mark.lewis.127/videos/3447045531977409/">
   Click to see tutorial on how to sew a surgical mask cover
-</a>
+</a></li>
+</ul>
+
+
+
+
 
 <h3>
   I HAVE AN IDEA OF HOW MANY MASKS I AM GOING TO MAKE, OR HAVE COMPLETED MAKING

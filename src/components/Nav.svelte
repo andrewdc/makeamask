@@ -36,7 +36,7 @@
     content: "";
     width: calc(100% - 1em);
     height: 2px;
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(19, 153, 230);
     display: block;
     bottom: -1px;
   }
@@ -58,14 +58,14 @@
     </li>
     <li>
       <a
-        aria-current={segment === 'media' ? 'page' : undefined}
+        aria-current={segment === 'creators' ? 'page' : undefined}
         href="creators">
         #makeAMaskSewers
       </a>
     </li>
     <li>
       <a
-        aria-current={segment === 'media' ? 'page' : undefined}
+        aria-current={segment === 'providers' ? 'page' : undefined}
         href="providers">
         Request Masks
       </a>

@@ -53,6 +53,12 @@ ol li::before {
   .learn img {
     width:50px;
   }
+  .vids {
+    display:flex;
+    justify-content: center;
+    align-items:center;
+    flex-direction:column;
+  }
 </style>
 
 <svelte:head>
@@ -62,11 +68,12 @@ ol li::before {
 <h2>How can I help create Masks?</h2>
 
 <h3 id="#learn" class="learn"><img src="/icons/011-design.svg" alt="sewing template"> Sewing Tutorials</h3>
+<div class="vids">
+<iframe title="Learn to Sew a Mask Video" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fmark.lewis.127%2Fvideos%2F3447045531977409%2F&show_text=1&width=560" width="560" height="514" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media" allowFullScreen="true"></iframe>
+<iframe title="Deaconess Health Mask Tutorial" width="560" height="315" src="https://www.youtube.com/embed/9tBg0Os5FWQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+</div>
 <ul>
-<li><a
-  href="https://www.facebook.com/stephanie.angle/posts/10107637284178223?__tn__=K-R">
-  Learn to sew an N95 cover
-</a></li>
+
 <li><a
   href="https://drive.google.com/file/d/1Gnmp7qOThe0jHu9us4_clfIKGAv-fBML/view?usp=sharing">
   Click to download pdf on how to sew an N95 cover
@@ -237,7 +244,7 @@ Type <strong>@Make-A-Mask</strong> to create a blue hyperlink that others can cl
  <a href="https://twitter.com/intent/tweet?button_hashtag=MakeAMaskSewers&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-show-count="false">Tweet #MakeAMaskSewers</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
 </li>
 
-Make sure everyone visits the FAQ page by sharing this link: <a href="/">(TODO link to here)</a>
+<li>Make sure everyone visits the FAQ page by sharing this link: <a href="http://makeamaskaustin.org">makeamaskaustin.org</a></li>
 </ul>
 
 <p>A message from Jennifer:</p>

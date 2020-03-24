@@ -19,16 +19,23 @@ font-weight: 400;
 }
 	main {
 		position: relative;
-		max-width: 56em;
 		background-color: none;
 		padding: 2em;
-		margin: 0 auto;
 		box-sizing: border-box;
+		overflow-y:auto;
+	}
+	.content {
+		margin: 0 auto;
+		max-width: 56em;
+		flex:1 0 auto;
 	}
 </style>
 
 <Nav {segment}/>
 
 <main>
+<div class="content">
 	<slot></slot>
+	</div>
+
 </main>

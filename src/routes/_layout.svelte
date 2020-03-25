@@ -1,6 +1,7 @@
 <script>
 	import Nav from '../components/Nav.svelte';
 	import Footer from '../components/Footer.svelte';
+	import Button from '../components/Button.svelte';
 
 	export let segment;
 </script>
@@ -38,6 +39,9 @@ font-weight: 400;
 		padding:0 3em;
 		flex:1 1 100%;
 	}
+	@media (max-width: 880px) {
+		
+	}
 	 @media (min-width: 480px) {
    main {
       font-size: 1em;
@@ -57,6 +61,10 @@ font-weight: 400;
 	<slot></slot>
 	</div>
 <div class="facebook">
+	<Button href="/#faq">
+		<span slot="text">Jump to FAQ</span>
+		<img slot="icon" src="/icons/001-brooch.svg" style="width:50px;transform:rotate(-90deg);" alt="mask" />
+	</Button>
 	<h3>Join us on Facebook</h3>
 	<div class="fb-page" data-href="https://www.facebook.com/MakeAMask/" data-tabs="timeline, messages" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/MakeAMask/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/MakeAMask/">Make-A-Mask</a></blockquote></div>
 

@@ -1,5 +1,6 @@
 <script>
  import SuperLink from "./SuperLink.svelte";
+ import Button from "./Button.svelte";
 </script>
 <div id="faq">
   <h2>Frequently Asked Questions</h2>
@@ -23,6 +24,10 @@
   We encourage you to use 100% cotton to make the masks. The medical staff will be wearing 2 masks (as stated above), so we want to make sure it’s still comfortable and breathable. Some #MakeAMaskSewers have gotten creative with cotton, flannel, cloth diapers, T-shirts, pillowcases, etc. Be conscious about any additional “elements” you add to the masks. There are lots of patterns out there. The masks will need to be easily washed. Elastic is better than tie straps. Elastic is hard to come by right now, so we have seen #MakeAMaskSewers using elastic hair ties as a secondary option. We’ve heard about pipe cleaners being used to mold the bridge of the nose, and while genius, this would make it difficult for laundering over and over.
 </p>
 
+<Button href="creators">
+  <img slot="icon" src="/icons/002-fashion.svg" style="width:40px;" alt="spool" />
+    <span slot="text">  Learn How</span>
+</Button>
 <h3>
   I HAVE SEEN LOTS OF DIFFERENT TYPES OF MASKS...HOW DO I KNOW WHICH ONE TO MAKE
   ... BIGGER or SMALLER?

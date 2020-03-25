@@ -23,11 +23,16 @@ font-weight: 400;
 		padding: 2em;
 		box-sizing: border-box;
 		overflow-y:auto;
+		display:flex;
+	}
+	.facebook {
+		flex:1 0 340px;
 	}
 	.content {
 		margin: 0 auto;
 		max-width: 56em;
-		flex:1 0 auto;
+		padding:0 3em;
+		flex:1 1 56em;
 	}
 </style>
 
@@ -37,5 +42,14 @@ font-weight: 400;
 <div class="content">
 	<slot></slot>
 	</div>
+<div class="facebook">
+	<h3>Join us on Facebook</h3>
+	<div class="fb-page" data-href="https://www.facebook.com/MakeAMask/" data-tabs="timeline, messages" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/MakeAMask/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/MakeAMask/">Make-A-Mask</a></blockquote></div>
 
+			<h3>Say hello on Twitter</h3>
+		<a href="https://twitter.com/intent/tweet?button_hashtag=MakeAMaskSewers&ref_src=twsrc%5Etfw" class="twitter-hashtag-button" data-size="large" data-related="Make-A-Mas" data-dnt="true" data-show-count="false">Tweet #MakeAMaskSewers</a><script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+	</div>
+	<div>
+
+</div>
 </main>

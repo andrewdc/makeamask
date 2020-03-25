@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang='en'>
+<html id="top" lang='en'>
 <head>
 	<meta charset='utf-8'>
 	<meta name='viewport' content='width=device-width,initial-scale=1.0'>
@@ -21,6 +21,8 @@
 	%sapper.head%
 </head>
 <body>
+	<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v6.0&appId=636802037175514&autoLogAppEvents=1"></script>
 	<!-- The application will be rendered inside this element,
 	     because `src/client.js` references it -->
 	<div id='sapper'>%sapper.html%</div>

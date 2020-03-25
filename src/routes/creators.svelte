@@ -48,7 +48,7 @@ ol li::before {
   .learn {
     display:flex;
     flex-direction:column;
-    align-items:center;
+    /* align-items:center; */
   }
   .learn img {
     width:50px;
@@ -56,7 +56,7 @@ ol li::before {
   .vids {
     display:flex;
     justify-content: center;
-    align-items:center;
+    /* align-items:center; */
     flex-direction:column;
   }
 </style>

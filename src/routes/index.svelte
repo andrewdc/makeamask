@@ -37,6 +37,13 @@
   align-items:center;
   justify-content: stretch;
 }
+.quote {
+  	font-family: alegreya, serif;
+font-style: light;
+font-weight: 100;
+font-size:2em;
+	line-height: 1.2;
+}
   @media (min-width: 480px) {
     h1 {
       font-size: 4em;
@@ -53,9 +60,8 @@
 
 <h1>Make a Mask</h1>
 
-<p>Find us on Facebook</p>
-<p>
-  Help keep our Healthcare workers safe in the Austin, Texas area. Personal
+<p class="quote">
+  >Help keep our Healthcare workers safe in the Austin, Texas area. Personal
   Protective Equipment, especially masks are in dire need for their safety and
   can't be purchased through retailers.
 </p>
@@ -74,6 +80,7 @@
 </Button>
 
 </div>
+
 <h2>In the News</h2>
 
 <iframe title="kxan News Story" src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FKXANnews%2Fposts%2F10157585767123037&width=400" width="400" height="620" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>

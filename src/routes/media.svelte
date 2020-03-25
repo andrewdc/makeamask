@@ -20,14 +20,14 @@
   health groups etc.
 </p>
 <p>
-  Please click on the following links and share all the neat things that
+Please click on the following links and share all the neat things that
   Make-A-Mask is doing to help support our local community.
 </p>
 
 <p>
-  You can
+   <em>You can
   <strong>COPY AND PASTE</strong>
-  this paragraph to any of the links below.
+  this paragraph to any of the links below.</em>
 </p>
 
 <p>
@@ -45,7 +45,7 @@
   masks but only the sewn masks will be changed out in between each patient,
   prolonging the life of their medical grade masks. Please reference the
   following link for more information on the Make-A-Mask program:
-  <a href="/#faq">Make A Mask FAQ page</a>
+   <a href="/#faq">http://makeamaskaustin.org/#faq</a>
   </CopyToClipboard>
 </p>
 

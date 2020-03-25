@@ -20,20 +20,29 @@ font-weight: 400;
 	main {
 		position: relative;
 		background-color: none;
-		padding: 2em;
+		padding: 2em 10em;
 		box-sizing: border-box;
-		overflow-y:auto;
 		display:flex;
+		max-width:100vw;
 	}
 	.facebook {
-		flex:1 0 340px;
+		flex:0 0 340px;
 	}
 	.content {
 		margin: 0 auto;
-		max-width: 56em;
 		padding:0 3em;
-		flex:1 1 56em;
+		flex:1 1 100%;
 	}
+	 @media (min-width: 480px) {
+   main {
+      font-size: 1em;
+    }
+		}
+		 @media (min-width: 320px) {
+   main {
+						padding: 2em 1em;
+    }
+  }
 </style>
 
 <Nav {segment}/>

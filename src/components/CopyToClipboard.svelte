@@ -1,47 +1,70 @@
 <script>
-  import { tick, onMount } from "svelte";
   let slotContent = "";
-// let value;
-// onMount(()=> {
-//   value = slotContent.innerHtml;
-// })
   
-
+$: {
+  console.log(slotContent);
+}
   const copy = function(){
-    let value = slotContent.innerText;
-   let copied = value.createTextRange();
-    copied.execCommand("Copy");
-    console.log(copied);
+    let value = slotContent;
+    let range = document.createRange();
+    range.selectNode(value);
+    window.getSelection().addRange(range);
+
+     try {  
+    // Now that we've selected the anchor text, execute the copy command  
+    var successful = document.execCommand('copy');  
+    var msg = successful ? 'successful' : 'unsuccessful';  
+    console.log('Copy command was ' + msg);  
+  } catch(err) {  
+    console.log('Oops, unable to copy');  
+  }  
+
+  // Remove the selections - NOTE: Should use
+  // removeRange(range) when it is supported  
+  window.getSelection().removeAllRanges();  
+   
   }
 </script>
 
 <style>
-  /* textarea {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 2em;
-    height: 2em;
-    padding: 0;
-    border: none;
-    outline: none;
-    box-shadow: none;
-    background: transparent;
-  } */
+  
 
   svg {
     cursor: pointer;
   }
+  .soft {
+  padding:10px;
+  margin:10px;
+  display:flex;
+  flex-direction:column;
+  justify-content:center;
+  align-items:center;
+  background: #ffffff;
+  border:none;
+  border-radius: 28px;
+  background: #f0f0f0;
+  box-shadow:  10px 10px 20px #d3d3d3, -10px -10px 20px #ffffff;
+  transition: all 0.5s ease-in-out; 
+  text-decoration:none;
+  font-size:20px;
+  height:90px;
+  flex:1 0 auto;
+}
+
+.soft:hover {
+  border-radius: 28px;
+  background: linear-gradient(145deg, #ffffff, #d8d8d8);
+  box-shadow:  10px 10px 20px #d3d3d3, -10px -10px 20px #ffffff;
+  cursor:pointer;
+}
 </style>
 
-<!-- {#if valueCopy != null} -->
 <span bind:this={slotContent}>
   <slot />
 </span>
-<!-- <textarea bind:this={areaDom}>{valueCopy}</textarea> -->
-<!-- {/if} -->
-<button on:click|preventDefault={copy}>
-  Click to Copy
+
+<button class="soft" on:click|preventDefault={copy}>
+  Click to Copy Above
   <svg
     title="Copy to clipboard"
     class="octicon octicon-clippy"

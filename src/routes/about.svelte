@@ -12,7 +12,7 @@ import Button from '../components/Button.svelte';
 
 <p>At this time we believe we have THOUSANDS and THOUSANDS of masks coming. Our #1 Goal right now... is to get the word out to the clinics and EMS/First responders on how to register to be on our distribution list. Please share with ANYONE you know in the healthcare community. You can even copy and paste the info, and send in a text.</p>
 
-<p>If you are in the Austin and surrounding area in the healthcare field (clinic, dentist, homehealth, hospice, EMS first responder, etc please register at this link to be be placed on our distribution list. We ask that ONE person from your organization register to keep things organized.</p>
+<p>If you are in the Austin and surrounding area in the healthcare field (clinic, dentist, homehealth, hospice, EMS first responder, etc) please register at this link to be placed on our distribution list. We ask that ONE person from your organization register to keep things organized.</p>
 
 <h3>PROVIDER MASK REQUEST</h3>
 

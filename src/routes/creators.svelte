@@ -121,7 +121,7 @@ ol li::before {
   <div>
     <h4>Choose a shipping location:</h4>
 
-    <p>We now have a second location that is SHIP TO ONLY. I do not want people dropping off at one of my clinics because we are actively seeing both healthy and walkin "sick" patients that go through a strict screening process. </p>
+    <p>We now have a second location that is SHIP TO ONLY. I do not want people dropping off at one of my clinics because we are actively seeing both healthy and walk-in "sick" patients that go through a strict screening process. </p>
     <div class="contacts">
     <ContactCard>
       <span slot="instruction">
@@ -151,7 +151,7 @@ Austin, Texas 78704
       </span>
     </ContactCard>
 </div>
-    <p>Teams are being created now to see that they are dispersed to clinics in the surrounding areas.  I routinely network with other Directors and Practice Administrators in the Austin area and have direct contacts to share the masks with.</p>
+    <p>We are creating teams to disperse the masks to clinics in the surrounding areas. I routinely network with other Directors and Practice Administrators in the Austin area and have direct contacts to share the masks with.</p>
     </div>
   </li>
 </ol>

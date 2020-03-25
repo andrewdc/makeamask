@@ -16,7 +16,7 @@ import Button from '../components/Button.svelte';
 
 <h3>PROVIDER MASK REQUEST</h3>
 
-<Button newtab="true" href="https://forms.gle/ZNaGdumGYFpPo2x38">
+<Button error="true" newtab="true" href="https://forms.gle/ZNaGdumGYFpPo2x38">
   <img slot="icon" src="/icons/021-mask.svg" style="width:50px;" alt="mask" />
     <span slot="text">Request Masks Form</span>
 </Button>
@@ -24,7 +24,7 @@ import Button from '../components/Button.svelte';
 <h3>SEWER CONTRIBUTION LOG</h3>
 
 <p>
-<Button newtab="true" href="https://forms.gle/CrjJDwR6KbVhyLHC9">
+<Button error="true" newtab="true" href="https://forms.gle/CrjJDwR6KbVhyLHC9">
     <img slot="icon" src="/icons/005-dressmaker.svg" style="width:50px;" alt="measuring tape" />
     <span slot="text">Log Your Contribution</span>
 </Button>

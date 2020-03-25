@@ -1,6 +1,7 @@
 <script>
 export let href = '';
 export let newtab = false;
+export let error = false;
 </script>
 
 <style>
@@ -27,9 +28,16 @@ export let newtab = false;
   background: linear-gradient(145deg, #ffffff, #d8d8d8);
   box-shadow:  10px 10px 20px #d3d3d3, -10px -10px 20px #ffffff;
 }
+.small {
+  font-size:0.8em;
+  text-align:center;
+}
 </style>
 
 <a class="soft" href="{href}" target="{newtab ? '_blank': ''}">
   <slot name="icon" class="icon"></slot>
   <slot name="text"></slot>
 </a>
+{#if error}
+<div class="small">If you recieve an error above try: <a href="{href}">{href}</a></div>
+{/if}

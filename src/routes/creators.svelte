@@ -119,7 +119,7 @@ ol li::before {
       ALSO, INCLUDE A NOTE IF THEY HAVE BEEN LAUNDERED “AFTER” THE SEWING
       PROCESS SO WE CAN EXPEDITE GETTING THEM OUT.
     </p>
-<Button newtab="true" href="https://forms.gle/CrjJDwR6KbVhyLHC9">
+<Button error="true" newtab="true" href="https://forms.gle/CrjJDwR6KbVhyLHC9">
     <img slot="icon" src="/icons/005-dressmaker.svg" style="width:50px;" alt="measuring tape" />
     <span slot="text">  Log Your Contribution</span>
 </Button>

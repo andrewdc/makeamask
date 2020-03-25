@@ -53,6 +53,7 @@ font-weight: 400;
     bottom: 1%;
 				font-size:0.8em;
 	}
+
 	}
 	 @media (min-width: 480px) {
    main {
@@ -71,6 +72,12 @@ font-weight: 400;
 			padding:0 0em;
 		}
 		}
+			@media (min-width:1224px) {
+		main {
+			padding:2em 12%;
+		}
+	}
+
 </style>
 
 <Nav {segment}/>
@@ -87,6 +94,7 @@ font-weight: 400;
 	</Button>
 	</div>
 	<h3>Join us on Facebook</h3>
+
 	<div class="fb-page" data-href="https://www.facebook.com/MakeAMask/" data-tabs="timeline, messages" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/MakeAMask/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/MakeAMask/">Make-A-Mask</a></blockquote></div>
 
 			<h3>Say hello on Twitter</h3>

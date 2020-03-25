@@ -48,8 +48,11 @@ font-size:2em;
 }
 .media {
   display:flex;
-  justify-content: stretch;
+  justify-content: center;
   flex-wrap: wrap;
+}
+iframe {
+  padding:1em;
 }
 	 @media (max-width: 890px) {
      h1 {
@@ -92,9 +95,9 @@ font-size:2em;
 <h2>In the News</h2>
 <div class="media">
 
-<iframe title="kxan News Story" src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FKXANnews%2Fposts%2F10157585767123037&width=400" width="400" height="455" style="flex:1 0 auto;border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+<iframe title="kxan News Story" src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FKXANnews%2Fposts%2F10157585767123037&width=auto" width="auto" height="455" style="flex:1 0 auto;border:none;overflow:hidden:width:100%;max-width:400px;" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
 
-<iframe title="Fashionable Austin Story" src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FFashionablyAustin%2Fposts%2F10156885842750927&width=400" width="400" height="620" style="flex:1 0 auto;border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+<iframe title="Fashionable Austin Story" src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FFashionablyAustin%2Fposts%2F10156885842750927&width=auto" width="auto" height="620" style="flex:1 0 auto;border:none;overflow:hidden;width:100%;max-width:400px;" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
 
 </div>
 

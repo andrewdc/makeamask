@@ -16,13 +16,14 @@ let printCard = function() {
 <style>
 	.contact-card {
 		position:relative;
-		flex:0 0 40%;
+		flex:1 0 40%;
 		background:#fff;
 		border: 1px solid #aaa;
 		border-radius: 2px;
 		box-shadow: 2px 2px 8px rgba(0,0,0,0.1);
 		padding: 1em;
-		min-height:150px;;
+		min-height:150px;
+		min-width:177px;
 		margin:0 8px;
 	transition:all 0.15s ease-in-out;
 	box-shadow:0 0 0 0 rgba(0, 0, 0, 0.0);
@@ -62,7 +63,11 @@ let printCard = function() {
 	.print-trigger:hover {
 		cursor:pointer;
 	}
-
+@media (max-width:555px) {
+		.contact-card {
+			margin-bottom:2em;
+		}
+}
 @media print {
 	h2 {display:none;
 	}

@@ -8,6 +8,7 @@
 <style>
 .contacts {
   display:flex;
+  flex-wrap:wrap;
   margin:20px 0;
 }
 :global(h3) {
@@ -61,6 +62,8 @@ ol li::before {
     /* align-items:center; */
     flex-direction:column;
   }
+
+  .embed-container {margin-bottom:2em; position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
 </style>
 
 <svelte:head>
@@ -71,8 +74,15 @@ ol li::before {
 
 <h3 id="#learn" class="learn"><img src="/icons/011-design.svg" alt="sewing template"> Sewing Tutorials</h3>
 <div class="vids">
-<iframe title="Learn to Sew a Mask Video" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fmark.lewis.127%2Fvideos%2F3447045531977409%2F&show_text=1&width=560" width="560" height="514" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media" allowFullScreen="true"></iframe>
-<iframe title="Deaconess Health Mask Tutorial" width="560" height="315" src="https://www.youtube.com/embed/9tBg0Os5FWQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+<style></style><div class='embed-container'><iframe title='Learn to Sew a Mask Video' src='https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fmark.lewis.127%2Fvideos%2F3447045531977409%2F&show_text=1' style='border:none;overflow:hidden' scrolling='no' frameborder='0' allowTransparency='true' allow='encrypted-media' allowFullScreen='true'></iframe></div>
+
+
+<div class='embed-container'><iframe title='Deaconess Health Mask Tutorial' width='560' height='315' src='https://www.youtube.com/embed/9tBg0Os5FWQ' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></div>
+<!-- <iframe title="Learn to Sew a Mask Video" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fmark.lewis.127%2Fvideos%2F3447045531977409%2F&show_text=1&width=560" width="560" height="514" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media" allowFullScreen="true"></iframe> -->
+<!-- <iframe title="Deaconess Health Mask Tutorial" width="560" height="315" src="https://www.youtube.com/embed/9tBg0Os5FWQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
+
+
 </div>
 <ul>
 

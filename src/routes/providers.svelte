@@ -18,7 +18,7 @@
   It is advised that medical staff NEVER wear these as primary masks or only as a last resort. Our goal and instructions are for the sewn masks to be worn OVER a surgical or N95 mask. Kind of like a cover if you will. You can switch out the sewn mask in between each patient and prolong the life of your medical grade mask for a much longer period. Then, with the sewn masks, you can soak...launder... and reuse. We are working in unexplored territory at this time, and this is a temporary solution until medical grade masks become more available. Please be safe and thank you for all your continued efforts in this trying time for our country.
 </p>
 
-<Button newtab="true" href="https://docs.google.com/forms/d/e/1FAIpQLSdn8zqgljoIV6NjX306Dm649qRRUyEs-pfgwoI0QJx6p086oQ/formResponse">
+<Button newtab="true" href="https://forms.gle/ZNaGdumGYFpPo2x38">
   <img slot="icon" src="/icons/021-mask.svg" style="width:50px;" alt="mask" />
     <span slot="text">Request Masks Form</span>
 </Button>

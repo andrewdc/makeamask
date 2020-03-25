@@ -16,7 +16,7 @@ import Button from '../components/Button.svelte';
 
 <h3>PROVIDER MASK REQUEST</h3>
 
-<Button newtab="true" href="https://docs.google.com/forms/d/e/1FAIpQLSdn8zqgljoIV6NjX306Dm649qRRUyEs-pfgwoI0QJx6p086oQ/formResponse">
+<Button newtab="true" href="https://forms.gle/ZNaGdumGYFpPo2x38">
   <img slot="icon" src="/icons/021-mask.svg" style="width:50px;" alt="mask" />
     <span slot="text">Request Masks Form</span>
 </Button>

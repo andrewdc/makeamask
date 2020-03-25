@@ -1,7 +1,9 @@
 html {
 	scroll-behavior: smooth;
 }
-
+* {
+  box-sizing: border-box;
+}
 body {
 	margin: 0;
 	font-family: source-sans-pro, -apple-system, Segoe UI, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;

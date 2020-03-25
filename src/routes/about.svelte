@@ -46,7 +46,7 @@ import Button from '../components/Button.svelte';
 <p>I can’t say THANK YOU enough to all the #MakeAMaskSewers .... from all the healthcare workers for participating! 🙏</p>
 <hr>
 
-<h4>This site uses</h4>
+<h5>Many thanks to the talented iconography of:</h5>
 
-<div>Icons made by <a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>,
+<div><a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>,
  <a href="https://www.flaticon.com/authors/darius-dan" title="Darius Dan">Darius Dan</a>, and <a href="https://www.flaticon.com/authors/nhor-phai" title="Nhor Phai">Nhor Phai</a> from <a href="https://www.flaticon.com/"     title="Flaticon">www.flaticon.com</a></div>

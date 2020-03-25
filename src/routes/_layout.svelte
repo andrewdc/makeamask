@@ -1,5 +1,6 @@
 <script>
 	import Nav from '../components/Nav.svelte';
+	import Footer from '../components/Footer.svelte';
 
 	export let segment;
 </script>
@@ -19,11 +20,15 @@ font-weight: 400;
 }
 	main {
 		position: relative;
-		background-color: none;
+		background-color:#f0f0f0;
 		padding: 2em 10em;
 		box-sizing: border-box;
 		display:flex;
 		max-width:100vw;
+			min-height: 100vh;
+			 /* put on top */
+  position: relative;
+  z-index: 1;
 	}
 	.facebook {
 		flex:0 0 340px;
@@ -62,3 +67,5 @@ font-weight: 400;
 
 </div>
 </main>
+
+<Footer></Footer>

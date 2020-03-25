@@ -48,7 +48,7 @@ a:hover .over::before {
 }
 </style>
 
-<a href={href}>
+<a href={href} target="_blank">
 	<span class="over" data-content="{slotContent.textContent}" aria-hidden="true"></span>
 	<span bind:this={slotContent}><slot/></span>
 </a>

@@ -64,7 +64,7 @@ ol li::before {
 </style>
 
 <svelte:head>
-  <title>Mask Creators</title>
+  <title>Mask Creators - Make A Mask</title>
 </svelte:head>
 
 <h2>How can I help create Masks?</h2>
@@ -109,7 +109,7 @@ ol li::before {
       ALSO, INCLUDE A NOTE IF THEY HAVE BEEN LAUNDERED “AFTER” THE SEWING
       PROCESS SO WE CAN EXPEDITE GETTING THEM OUT.
     </p>
-<Button href="https://forms.gle/CrjJDwR6KbVhyLHC9">
+<Button newtab="true" href="https://forms.gle/CrjJDwR6KbVhyLHC9">
     <img slot="icon" src="/icons/005-dressmaker.svg" style="width:50px;" alt="measuring tape" />
     <span slot="text">  Log Your Contribution</span>
 </Button>

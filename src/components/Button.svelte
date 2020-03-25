@@ -1,5 +1,6 @@
 <script>
 export let href = '';
+export let newtab = false;
 </script>
 
 <style>
@@ -28,7 +29,7 @@ export let href = '';
 }
 </style>
 
-<a class="soft" href="{href}" >
+<a class="soft" href="{href}" target="{newtab ? '_blank': ''}">
   <slot name="icon" class="icon"></slot>
   <slot name="text"></slot>
 </a>

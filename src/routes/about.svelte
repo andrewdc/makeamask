@@ -3,7 +3,7 @@ import Button from '../components/Button.svelte';
 </script>
 
 <svelte:head>
-	<title>About</title>
+	<title>About - Make A Mask</title>
 </svelte:head>
 
 <h2>About Make a Mask</h2>
@@ -16,7 +16,7 @@ import Button from '../components/Button.svelte';
 
 <h3>PROVIDER MASK REQUEST</h3>
 
-<Button href="https://docs.google.com/forms/d/e/1FAIpQLSdn8zqgljoIV6NjX306Dm649qRRUyEs-pfgwoI0QJx6p086oQ/formResponse">
+<Button newtab="true" href="https://docs.google.com/forms/d/e/1FAIpQLSdn8zqgljoIV6NjX306Dm649qRRUyEs-pfgwoI0QJx6p086oQ/formResponse">
   <img slot="icon" src="/icons/021-mask.svg" style="width:50px;" alt="mask" />
     <span slot="text">Request Masks Form</span>
 </Button>
@@ -24,7 +24,7 @@ import Button from '../components/Button.svelte';
 <h3>SEWER CONTRIBUTION LOG</h3>
 
 <p>
-<Button href="https://forms.gle/CrjJDwR6KbVhyLHC9">
+<Button newtab="true" href="https://forms.gle/CrjJDwR6KbVhyLHC9">
     <img slot="icon" src="/icons/005-dressmaker.svg" style="width:50px;" alt="measuring tape" />
     <span slot="text">Log Your Contribution</span>
 </Button>

@@ -8,7 +8,7 @@
 </style>
 
 <svelte:head>
-  <title>Media Help Needed</title>
+  <title>Media Help - Make A Mask</title>
 </svelte:head>
 
 <h1>Media Help Needed</h1>

@@ -62,7 +62,7 @@ font-size:2em;
 </style>
 
 <svelte:head>
-  <title>Sapper project template</title>
+  <title>Make A Mask</title>
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js">
 
   </script>

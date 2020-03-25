@@ -40,6 +40,9 @@ font-weight: 400;
 		flex:1 1 100%;
 	}
 	@media (max-width: 978px) {
+		.content {
+			padding:0 1em;
+		}
 		main {
 			flex-direction:column;
 		}
@@ -62,6 +65,12 @@ font-weight: 400;
 						padding: 2em 1em;
     }
   }
+
+		@media (max-width: 510px) {
+		.content {
+			padding:0 0em;
+		}
+		}
 </style>
 
 <Nav {segment}/>

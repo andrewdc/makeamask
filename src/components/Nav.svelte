@@ -65,6 +65,15 @@
   img {
     width:50px;
   }
+  @media (max-width: 510px) {
+    img {
+      width:35px;
+    }
+    a {
+      font-size:0.85em;
+      padding: 1em 0.2em;
+    }
+  }
 </style>
 
 <nav>

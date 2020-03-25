@@ -17,7 +17,7 @@ export let newtab = false;
   box-shadow:  10px 10px 20px #d3d3d3, -10px -10px 20px #ffffff;
   transition: all 0.5s ease-in-out; 
   text-decoration:none;
-  font-size:20px;
+  font-size:1.3em;
   height:90px;
   flex:1 0 auto;
 }

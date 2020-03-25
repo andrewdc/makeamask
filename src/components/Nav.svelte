@@ -79,31 +79,31 @@
 <nav>
   <ul>
     <li>
-      <a aria-current={segment === undefined ? 'page' : undefined} href="/#top">
+      <a aria-current={segment === undefined ? 'page' : undefined} href=".">
          <img src="/icons/019-cloth.svg" alt="stitched cloth"> Home
       </a>
     </li>
     <li>
       <a
         aria-current={segment === 'creators' ? 'page' : undefined}
-        href="creators#top">
+        href="creators">
         <img src="/icons/006-fashion-1.svg" alt="sewing maching"> Make a Mask
       </a>
     </li>
     <li>
       <a
         aria-current={segment === 'providers' ? 'page' : undefined}
-        href="providers#top">
+        href="providers">
         <img src="/icons/021-mask.svg" alt="medical mask">Request Masks
       </a>
     </li>
     <li>
-      <a aria-current={segment === 'media' ? 'page' : undefined} href="media#top">
+      <a aria-current={segment === 'media' ? 'page' : undefined} href="media">
         <img src="/icons/004-clothes-1.svg" alt="iron"> Contact Media
       </a>
     </li>
     <li>
-      <a aria-current={segment === 'about' ? 'page' : undefined} href="about#top">
+      <a aria-current={segment === 'about' ? 'page' : undefined} href="about">
         <img src="/icons/013-button.svg" alt="buttons">About
       </a>
     </li>

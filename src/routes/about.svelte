@@ -34,7 +34,6 @@ import Button from '../components/Button.svelte';
 <p>
 	We are all a TEAM here and help all that we can. 🙏😷❤️😊
 </p>
-
 <h3>
 	***IMPORTANT ***
 </h3>

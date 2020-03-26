@@ -21,7 +21,7 @@
 </p>
 <h3>WHAT IS THE BEST TYPE OF MATERIAL TO MAKE THE MASK OUT OF?</h3>
 <p>
-  We encourage you to use 100% cotton to make the masks. The medical staff will be wearing 2 masks (as stated above), so we want to make sure it’s still comfortable and breathable. Some #MakeAMaskSewers have gotten creative with cotton, flannel, cloth diapers, T-shirts, pillowcases, etc. Be conscious about any additional “elements” you add to the masks. There are lots of patterns out there. The masks will need to be easily washed. Elastic is better than tie straps. Elastic is hard to come by right now, so we have seen #MakeAMaskSewers using elastic hair ties as a secondary option. We’ve heard about pipe cleaners being used to mold the bridge of the nose, and while genius, this would make it difficult for laundering over and over.
+  We encourage you to use 100% cotton to make the masks. The medical staff will be wearing 2 masks (as stated above), so we want to make sure it’s still comfortable and breathable. Some #MakeAMaskSewers have gotten creative with cotton, flannel, cloth diapers, T-shirts, pillowcases, etc. Be conscious about any additional “elements” you add to the masks. There are lots of patterns out there. The masks will need to be easily washed. Elastic is better than tie straps. We’ve heard about pipe cleaners being used to mold the bridge of the nose, and while genius, this would make it difficult for laundering over and over.
 </p>
 
 <Button href="creators">

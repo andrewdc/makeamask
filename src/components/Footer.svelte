@@ -17,6 +17,17 @@
    width:50px;
    transform:rotate(45deg);
  }
+   a {color:rgb(52, 181, 255);}
+ @media (max-width:  510px) {
+   footer {
+     padding:30px 10px;
+     margin-bottom:58px;
+   }
+	p {
+    font-size:0.9em;
+  }
+
+}
 </style>
 <footer>
  <p><strong>A message from Jennifer:</strong></p>

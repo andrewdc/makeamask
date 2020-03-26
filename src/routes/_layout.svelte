@@ -45,8 +45,10 @@ font-weight: 400;
 		}
 		main {
 			flex-direction:column;
+			padding:0em;
 		}
 	.faq {
+		display:none;
 		position: fixed;
     z-index: 1000;
     right: 1%;
@@ -63,13 +65,21 @@ font-weight: 400;
 		}
 		 @media (min-width: 320px) {
    main {
-						padding: 2em 1em;
+						padding: 0em;
     }
   }
 
 		@media (max-width: 510px) {
 		.content {
-			padding:0 0em;
+			padding:1em 0.4em;
+		}
+		.facebook {
+			flex:0 0 100%;
+			display:flex;
+			flex-direction: column;
+			justify-content: center;
+			align-items:stretch;
+			padding:1em 0.4em;
 		}
 		}
 			@media (min-width:1224px) {
@@ -80,9 +90,10 @@ font-weight: 400;
 
 </style>
 
-<Nav {segment}/>
 
+<Nav {segment}/>
 <main>
+
 <div class="content">
 	<slot></slot>
 	</div>

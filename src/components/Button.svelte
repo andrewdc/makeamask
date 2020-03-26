@@ -31,6 +31,14 @@ export let error = false;
   font-size:0.8em;
   text-align:center;
 }
+  @media (max-width: 510px) {
+    .soft {
+      font-size:1em;
+      margin:0px;
+      flex: 1 0 50%;
+      transform:scale(0.8);
+    }
+  }
 </style>
 
 <a class="soft" rel="noreferrer" href="{href}" target="{newtab ? '_blank': ''}">

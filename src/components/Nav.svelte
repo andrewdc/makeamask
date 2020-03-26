@@ -8,6 +8,9 @@
     border-bottom: 1px solid rgba(35,10,1,0.29);
     font-weight: 400;
     padding: 0 1em;
+      background:#f0f0f0;
+      z-index:10000;
+      position: relative;
   }
 
   ul {
@@ -66,13 +69,34 @@
     width:50px;
   }
   @media (max-width: 510px) {
+    nav{
+      padding:0 3px;
+    }
     img {
-      width:35px;
+      width:25px;
     }
     a {
       font-size:0.85em;
-      padding: 1em 0.2em;
+      padding: 0.5em 0.2em;
     }
+  }
+  .faq {
+    display:none;
+  }
+  @media (max-width:510px){
+  .creators, .request, .faq {
+    position:fixed;
+    bottom:0px;
+    z-index: 100;
+    background:#f0f0f0;
+    width:33.33vw;
+  }
+  .creators {left:0}
+  .request {left:33.33vw}
+  .faq {
+    display:block;
+    left:66.66vw;
+  }
   }
 </style>
 
@@ -83,14 +107,14 @@
          <img src="/icons/019-cloth.svg" alt="stitched cloth"> Home
       </a>
     </li>
-    <li>
+    <li class="creators">
       <a
         aria-current={segment === 'creators' ? 'page' : undefined}
         href="creators">
         <img src="/icons/006-fashion-1.svg" alt="sewing maching"> Make a Mask
       </a>
     </li>
-    <li>
+    <li class="request">
       <a
         aria-current={segment === 'providers' ? 'page' : undefined}
         href="providers">
@@ -105,6 +129,11 @@
     <li>
       <a aria-current={segment === 'about' ? 'page' : undefined} href="about">
         <img src="/icons/013-button.svg" alt="buttons">About
+      </a>
+    </li>
+    <li class="faq">
+      <a aria-current={segment === 'faq' ? 'page' : undefined} href="/#faq">
+        <img src="/icons/001-brooch.svg" alt="buttons">FAQ
       </a>
     </li>
 

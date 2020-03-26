@@ -9,6 +9,7 @@
 		min-height:150px;
 		margin:0 8px 8px 8px;
 	transition:all 0.15s ease-in-out;
+	word-break:break-all;
 	}
 	.media-card:hover {
 		box-shadow: 0 0 6px 4px rgba(46, 147, 254, 0.4)

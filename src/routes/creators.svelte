@@ -68,6 +68,7 @@ ol li::before {
 
 <svelte:head>
   <title>Mask Creators - Make A Mask</title>
+    <meta name="Description" content="How do I sew a mask? Learn here with tutorials and mask patterns">
 </svelte:head>
 
 <h2>How can I help create Masks?</h2>

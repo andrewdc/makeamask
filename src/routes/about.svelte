@@ -4,6 +4,7 @@ import Button from '../components/Button.svelte';
 
 <svelte:head>
 	<title>About - Make A Mask</title>
+	  <meta name="Description" content="Learn about Make A Mask and how people are working to help medical providers stay safe from COVID-19">
 </svelte:head>
 
 <h2>About Make a Mask</h2>

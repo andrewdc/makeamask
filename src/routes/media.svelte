@@ -9,6 +9,7 @@
 
 <svelte:head>
   <title>Media Help - Make A Mask</title>
+    <meta name="Description" content="Reach out and share #makeamasksewers with local media">
 </svelte:head>
 
 <h1>Media Help Needed</h1>

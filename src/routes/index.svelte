@@ -66,6 +66,7 @@ iframe {
 
 <svelte:head>
   <title>Make A Mask</title>
+    <meta name="Description" content="As a creator: Learn how to create masks, where to ship them. As a medical provider: how to request masks">
   <script src="https://identity.netlify.com/v1/netlify-identity-widget.js">
 
   </script>

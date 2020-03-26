@@ -4,6 +4,7 @@
 
 <svelte:head>
   <title>Providers Request Masks - Make A Mask</title>
+  <meta name="Description" content="Information for medical providers to request masks">
 </svelte:head>
 
 <h2>Request Masks</h2>

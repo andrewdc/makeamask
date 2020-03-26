@@ -33,7 +33,7 @@ export let error = false;
 }
 </style>
 
-<a class="soft" href="{href}" target="{newtab ? '_blank': ''}">
+<a class="soft" rel="noreferrer" href="{href}" target="{newtab ? '_blank': ''}">
   <slot name="icon" class="icon"></slot>
   <slot name="text"></slot>
 </a>

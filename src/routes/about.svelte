@@ -8,7 +8,7 @@ import Button from '../components/Button.svelte';
 </svelte:head>
 
 <h2>About Make a Mask</h2>
-<img src="jenn.png" alt="Jennifer Reyes" height="300px"/>
+<img src="jen.jpg" alt="Jennifer Reyes" height="300px"/>
 <p>My name is Jennifer Reyes and I am a Director of Clinical Operations for multiple Urgent Care and Family Practice Clinics in the Austin and surrounding areas. Like you have heard on the news, face MASKS are very limited for our staff. I created this site as a volunteer opportunity for our communities to help healthcare workers stay protected during the COVID19 pandemic.</p>
 
 <p>At this time we believe we have THOUSANDS and THOUSANDS of masks coming. Our #1 Goal right now... is to get the word out to the clinics and EMS/First responders on how to register to be on our distribution list. Please share with ANYONE you know in the healthcare community. You can even copy and paste the info, and send in a text.</p>

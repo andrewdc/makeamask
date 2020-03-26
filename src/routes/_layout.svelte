@@ -8,7 +8,7 @@
 
 <style>
 :global(a) {
-	color:rgb(19, 153, 230);
+	color:rgb(2, 110, 172);
 }
 :global(body) {
 	background-color:#f0f0f0;

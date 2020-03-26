@@ -8,7 +8,7 @@ a {
   position: relative;
   display: inline-block;
   font-size: 1em;
-  color: rgb(19, 153, 230);
+  color: rgb(2, 110, 172);
   text-decoration: none;
   overflow: hidden;
   line-height:1.09em;

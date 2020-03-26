@@ -39,7 +39,6 @@ $: {
   flex-direction:column;
   justify-content:center;
   align-items:center;
-  background: #ffffff;
   border:none;
   border-radius: 28px;
   background: #f0f0f0;

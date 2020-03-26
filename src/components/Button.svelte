@@ -12,7 +12,6 @@ export let error = false;
   flex-direction:column;
   justify-content:center;
   align-items:center;
-  background: #ffffff;
   border-radius: 28px;
   background: #f0f0f0;
   box-shadow:  10px 10px 20px #d3d3d3, -10px -10px 20px #ffffff;

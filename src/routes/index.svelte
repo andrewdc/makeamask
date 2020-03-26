@@ -44,7 +44,7 @@ font-style: italic;
 font-weight: 400;
 font-size:2em;
   line-height: 1.2;
-  color:rgb(105, 147, 165);
+  color:rgb(74, 132, 157);
 }
 .media {
   display:flex;

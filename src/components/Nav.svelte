@@ -37,7 +37,7 @@
     content: "";
     width: calc(100% - 1em);
     height: 2px;
-    background-color: rgb(19, 153, 230);
+    background-color: rgb(2, 110, 172);
     display: block;
     bottom: -1px;
   }
@@ -50,7 +50,7 @@
     flex-direction:column;
     text-decoration: none;
     padding: 1em 0.5em;
-    color:rgb(19, 153, 230);
+    color:rgb(2, 110, 172);
     text-align:center;
   }
   a:hover:after {
@@ -58,7 +58,7 @@
     content: "";
     width: calc(100% - 1em);
     height: 2px;
-    background-color: rgb(19, 153, 230);
+    background-color: rgb(2, 110, 172);
     display: block;
     bottom: -1px;
   }

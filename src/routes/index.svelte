@@ -47,13 +47,24 @@ font-size:2em;
   color:rgb(74, 132, 157);
 }
 .media {
-  display:flex;
+  /* display:flex;
   justify-content: center;
-  flex-wrap: wrap;
+  flex-wrap: wrap; */
+      display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(274px, 1fr));
+    grid-gap: 10px;
+    grid-auto-rows: minmax(180px, auto);
+    grid-auto-flow: dense;
+    padding: 10px;
 }
-iframe {
-  padding:1em;
-}
+/*iframe {
+    padding: 1rem;
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 5px;
+} */
+
+
 	 @media (max-width: 890px) {
      h1 {
        font-size:3em;
@@ -62,6 +73,7 @@ iframe {
        font-size:1em;
      }
 		}
+   
 </style>
 
 <svelte:head>
@@ -96,7 +108,9 @@ iframe {
 <h2>In the News</h2>
 <div class="media">
 
-<iframe title="kxan News Story" src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FKXANnews%2Fposts%2F10157585767123037&width=auto" width="auto" height="455" style="flex:1 0 auto;border:none;overflow:hidden:width:100%;max-width:400px;" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+<iframe title="Community Impact Story" src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FMakeAMask%2Fposts%2F117883959845271&width=auto" width="auto" height="636" style="border:none;overflow:hidden;flex:1 0 auto;border:none;overflow:hidden;width:100%;max-width:400px;" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+
+<iframe title="kxan News Story" src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FKXANnews%2Fposts%2F10157585767123037&width=auto" width="auto" height="455" style="border:none;overflow:hidden;flex:1 0 auto;border:none;overflow:hidden;width:100%;max-width:400px;" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
 
 <iframe title="Fashionable Austin Story" src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FFashionablyAustin%2Fposts%2F10156885842750927&width=auto" width="auto" height="620" style="flex:1 0 auto;border:none;overflow:hidden;width:100%;max-width:400px;" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
 

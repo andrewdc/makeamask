@@ -87,6 +87,7 @@ font-weight: 400;
 			padding:2em 12%;
 		}
 	}
+.group {border-radius:3px; width:100%;}
 
 </style>
 
@@ -104,7 +105,12 @@ font-weight: 400;
 		<img slot="icon" src="/icons/001-brooch.svg" style="width:50px;transform:rotate(-90deg);" alt="mask" />
 	</Button>
 	</div>
-	<h3>Join us on Facebook</h3>
+	<h3>Join the Facebook Group</h3>
+<a rel="noreferrer" target="_blank" href="https://www.facebook.com/groups/caremaskcoversforcovid19/">
+<img class="group" src="/group.jpg" alt="Care Mask Covers for COVID-19 Facebook Group" />
+</a>
+
+		<h3>Like the Facebook Page</h3>
 
 	<div class="fb-page" data-href="https://www.facebook.com/MakeAMask/" data-tabs="timeline, messages" data-width="" data-height="" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/MakeAMask/" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/MakeAMask/">Make-A-Mask</a></blockquote></div>
 

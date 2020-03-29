@@ -55,7 +55,13 @@ font-weight: 400;
     bottom: 1%;
 				font-size:0.8em;
 	}
-
+	.facebook {
+			flex:0 0 100%;
+			display:flex;
+			flex-direction: column;
+			align-items:center;
+			padding:1em 0.4em;
+	}
 	}
 	 @media (min-width: 480px) {
    main {
@@ -77,7 +83,6 @@ font-weight: 400;
 			flex:0 0 100%;
 			display:flex;
 			flex-direction: column;
-			justify-content: center;
 			align-items:stretch;
 			padding:1em 0.4em;
 		}
@@ -87,7 +92,7 @@ font-weight: 400;
 			padding:2em 12%;
 		}
 	}
-.group {border-radius:3px; width:100%;}
+.group {border-radius:3px; width:100%; max-width:340px;}
 
 </style>
 

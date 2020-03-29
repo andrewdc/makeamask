@@ -64,6 +64,7 @@ ol li::before {
   }
 
   .embed-container {margin-bottom:2em; position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+dt {font-weight:bold;}
 </style>
 
 <svelte:head>
@@ -80,6 +81,7 @@ ol li::before {
 
 
 <div class='embed-container'><iframe title='Deaconess Health Mask Tutorial' width='560' height='315' src='https://www.youtube.com/embed/9tBg0Os5FWQ' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></div>
+
 <!-- <iframe title="Learn to Sew a Mask Video" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fmark.lewis.127%2Fvideos%2F3447045531977409%2F&show_text=1&width=560" width="560" height="514" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media" allowFullScreen="true"></iframe> -->
 <!-- <iframe title="Deaconess Health Mask Tutorial" width="560" height="315" src="https://www.youtube.com/embed/9tBg0Os5FWQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
 
@@ -164,7 +166,19 @@ Austin, Texas 78704
 </div>
     <p>We are creating teams to disperse the masks to clinics in the surrounding areas. I routinely network with other Directors and Practice Administrators in the Austin area and have direct contacts to share the masks with.</p>
     </div>
+
+
+<!-- <iframe src="https://www.google.com/maps/d/embed?mid=1MPnTVNWY959yFKxns-1Gok0lcc2r4Aa2" width="640" height="480"></iframe> -->
+
+    
   </li>
 </ol>
+<h4 id="dropOff">Drop off locations:</h4>
+<div class='embed-container'><iframe title="drop off locations map" src='https://www.google.com/maps/d/embed?mid=1MPnTVNWY959yFKxns-1Gok0lcc2r4Aa2' width='640' height='480'></iframe></div>
+<dl>
+<dt>Honey Bee Quilt Store</dt><dd>All DROPS here by 3pm, please. Collection bin right outside the door. Ffyi: Honey Bee is open for online/phone orders and curbside pick-up. Thank you, Honey Bee! ;-) </dd>
+<dt>Austin Gift Company</dt><dd>ALL DROPS by 3pm, please. Collection bin right outside the door. Ffyi: Austin Gift Company is closed. Thank you, Austin Gift Company! ;-)</dd>
+<dt>Mask Cover DROP - Personal Residence</dt><dd>ALL DROPS here by 9pm, please. Please be mindful that this is a private residence. These will be safe / no contact porch drops. Thank you!</dd>
+</dl>
 
 <Faq></Faq>

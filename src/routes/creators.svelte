@@ -6,100 +6,134 @@
 </script>
 
 <style>
-.contacts {
-  display:flex;
-  flex-wrap:wrap;
-  margin:20px 0;
-}
-:global(h3) {
-font-size:1.6em;
-font-weight:400;
-padding: 0.6em 0 0.6em 0;
-margin: 0 0 1em 0;
-}
+  .contacts {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0;
+  }
+  :global(h3) {
+    font-size: 1.6em;
+    font-weight: 400;
+    padding: 0.6em 0 0.6em 0;
+    margin: 0 0 1em 0;
+  }
 
-:global(h4) {
-font-size:1.5em;
-border-bottom:1px solid #55b9f3;
-padding: 0 0 0.2em 0;
-margin: 0 0 1em 0;
-}
+  :global(h4) {
+    font-size: 1.5em;
+    border-bottom: 1px solid #55b9f3;
+    padding: 0 0 0.2em 0;
+    margin: 0 0 1em 0;
+  }
 
-ol {
-  list-style: none;
-  counter-reset: my-awesome-counter;
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0;
-  padding: 0;
-}
-ol li {
-  counter-increment: my-awesome-counter;
-  display: flex;
-  width: 100%;
-  /* font-size: 0.8rem; */
-  margin-bottom: 2rem;
-}
-ol li::before {
-  content: "0" counter(my-awesome-counter);
-  font-weight: bold;
-  font-size: 3rem;
-  margin-right: 0.5rem;
-  font-family: 'alegreya', serif;
-  line-height: 1;
-}
+  ol {
+    list-style: none;
+    counter-reset: my-awesome-counter;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+  }
+  ol li {
+    counter-increment: my-awesome-counter;
+    display: flex;
+    width: 100%;
+    /* font-size: 0.8rem; */
+    margin-bottom: 2rem;
+  }
+  ol li::before {
+    content: "0" counter(my-awesome-counter);
+    font-weight: bold;
+    font-size: 3rem;
+    margin-right: 0.5rem;
+    font-family: "alegreya", serif;
+    line-height: 1;
+  }
   .learn {
-    display:flex;
-    flex-direction:column;
+    display: flex;
+    flex-direction: column;
     /* align-items:center; */
   }
   .learn img {
-    width:50px;
+    width: 50px;
   }
   .vids {
-    display:flex;
+    display: flex;
     justify-content: center;
     /* align-items:center; */
-    flex-direction:column;
+    flex-direction: column;
   }
 
-  .embed-container {margin-bottom:2em; position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; } .embed-container iframe { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
-dt {font-weight:bold;}
+  .embed-container {
+    margin-bottom: 2em;
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+  }
+  .embed-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  dt {
+    font-weight: bold;
+  }
 </style>
 
 <svelte:head>
   <title>Mask Creators - Make A Mask</title>
-    <meta name="Description" content="How do I sew a mask? Learn here with tutorials and mask patterns">
+  <meta
+    name="Description"
+    content="How do I sew a mask? Learn here with tutorials and mask patterns" />
 </svelte:head>
 
 <h2>How can I help create Masks?</h2>
 
-<h3 id="#learn" class="learn"><img src="/icons/011-design.svg" alt="sewing template"> Sewing Tutorials</h3>
+<h3 id="#learn" class="learn">
+  <img src="/icons/011-design.svg" alt="sewing template" />
+  Sewing Tutorials
+</h3>
 <div class="vids">
+  <style>
 
-<style></style><div class='embed-container'><iframe title='Learn to Sew a Mask Video' src='https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fmark.lewis.127%2Fvideos%2F3447045531977409%2F&show_text=1' style='border:none;overflow:hidden' scrolling='no' frameborder='0' allowTransparency='true' allow='encrypted-media' allowFullScreen='true'></iframe></div>
+  </style>
+  <div class="embed-container">
+    <iframe
+      title="Learn to Sew a Mask Video"
+      src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fmark.lewis.127%2Fvideos%2F3447045531977409%2F&show_text=1"
+      style="border:none;overflow:hidden"
+      scrolling="no"
+      frameborder="0"
+      allowTransparency="true"
+      allow="encrypted-media"
+      allowFullScreen="true" />
+  </div>
 
-
-<div class='embed-container'><iframe title='Deaconess Health Mask Tutorial' width='560' height='315' src='https://www.youtube.com/embed/9tBg0Os5FWQ' frameborder='0' allow='accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture' allowfullscreen></iframe></div>
-
-<!-- <iframe title="Learn to Sew a Mask Video" src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fmark.lewis.127%2Fvideos%2F3447045531977409%2F&show_text=1&width=560" width="560" height="514" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media" allowFullScreen="true"></iframe> -->
-<!-- <iframe title="Deaconess Health Mask Tutorial" width="560" height="315" src="https://www.youtube.com/embed/9tBg0Os5FWQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe> -->
-
+  <div class="embed-container">
+    <iframe
+      title="Deaconess Health Mask Tutorial"
+      width="560"
+      height="315"
+      src="https://www.youtube.com/embed/9tBg0Os5FWQ"
+      frameborder="0"
+      allow="accelerometer; autoplay; encrypted-media; gyroscope;
+      picture-in-picture"
+      allowfullscreen />
+  </div>
 
 </div>
 <ul>
 
-<!-- <li>
-<SuperLink href="https://drive.google.com/file/d/1Gnmp7qOThe0jHu9us4_clfIKGAv-fBML/view?usp=sharing">Click to download pdf on how to sew an N95 cover</SuperLink>
-</li> -->
-<li>
-<SuperLink href="https://www.facebook.com/mark.lewis.127/videos/3447045531977409/">Click to see tutorial on how to sew a surgical mask cover</SuperLink>
-</li>
+  <li>
+    <SuperLink
+      href="https://www.facebook.com/mark.lewis.127/videos/3447045531977409/">
+      Click to see tutorial on how to sew a surgical mask cover
+    </SuperLink>
+  </li>
 </ul>
-
-
-
-
 
 <h3>
   I HAVE AN IDEA OF HOW MANY MASKS I AM GOING TO MAKE, OR HAVE COMPLETED MAKING
@@ -107,78 +141,112 @@ dt {font-weight:bold;}
 </h3>
 <ol>
   <li>
-  <div>
-    <h4>Volunteers Log your Make-A-Mask Contribution</h4>
+    <div>
+      <h4>Volunteers Log your Make-A-Mask Contribution</h4>
 
-    <p>
-      The reason it is important to log your masks is it will allow us to start
-      the planning process as to where to allocate them.
-    </p>
-    <p>
-      IF POSSIBLE: PLEASE SEND A FEW GALLON SIZE ZIPLOCK BAGS WITH THE MASKS AS
-      WE ARE TRYING TO PACKAGE THESE IN SETS OF 25 TO DISPERSE OUT.
-    </p>
-    <p>
-      ALSO, INCLUDE A NOTE IF THEY HAVE BEEN LAUNDERED “AFTER” THE SEWING
-      PROCESS SO WE CAN EXPEDITE GETTING THEM OUT.
-    </p>
-<Button error="true" newtab="true" href="https://forms.gle/CrjJDwR6KbVhyLHC9">
-    <img slot="icon" src="/icons/005-dressmaker.svg" style="width:50px;" alt="measuring tape" />
-    <span slot="text">  Log Your Contribution</span>
-</Button>
-    <!-- <a class="soft" href="https://forms.gle/CrjJDwR6KbVhyLHC9">
+      <p>
+        The reason it is important to log your masks is it will allow us to
+        start the planning process as to where to allocate them.
+      </p>
+      <p>
+        IF POSSIBLE: PLEASE SEND A FEW GALLON SIZE ZIPLOCK BAGS WITH THE MASKS
+        AS WE ARE TRYING TO PACKAGE THESE IN SETS OF 25 TO DISPERSE OUT.
+      </p>
+      <p>
+        ALSO, INCLUDE A NOTE IF THEY HAVE BEEN LAUNDERED “AFTER” THE SEWING
+        PROCESS SO WE CAN EXPEDITE GETTING THEM OUT.
+      </p>
+      <Button
+        error="true"
+        newtab="true"
+        href="https://forms.gle/CrjJDwR6KbVhyLHC9">
+        <img
+          slot="icon"
+          src="/icons/005-dressmaker.svg"
+          style="width:50px;"
+          alt="measuring tape" />
+        <span slot="text">Log Your Contribution</span>
+      </Button>
+      <!-- <a class="soft" href="https://forms.gle/CrjJDwR6KbVhyLHC9">
     </a> -->
     </div>
   </li>
   <li>
-  <div>
-    <h4>Choose a shipping location:</h4>
+    <div>
+      <h4>Choose a shipping location:</h4>
 
-    <p>We now have a second location that is SHIP TO ONLY. I do not want people dropping off at one of my clinics because we are actively seeing both healthy and walk-in "sick" patients that go through a strict screening process. </p>
-    <div class="contacts">
-    <ContactCard>
-      <span slot="instruction">
-        SHIP TO or PORCH DROP OFF:
-      </span>
-      
-      <span slot="name">
-        Jennifer Reyes
-      </span>
-      <span slot="address">
-      163 Open Sky Road<br>
-Austin, TX 78737
-      </span>
-    </ContactCard>
+      <p>
+        We now have a second location that is SHIP TO ONLY. I do not want people
+        dropping off at one of my clinics because we are actively seeing both
+        healthy and walk-in "sick" patients that go through a strict screening
+        process.
+      </p>
+      <div class="contacts">
         <ContactCard>
-      <span slot="instruction">
-        SHIP TO ONLY:
-      </span>
-      
-      <span slot="name">
-        Victory Medical <br>
-        <em>c/o Jennifer Reyes - MASKS</em>
-      </span>
-      <span slot="address">
-      4303 Victory Drive<br>
-Austin, Texas 78704
-      </span>
-    </ContactCard>
-</div>
-    <p>We are creating teams to disperse the masks to clinics in the surrounding areas. I routinely network with other Directors and Practice Administrators in the Austin area and have direct contacts to share the masks with.</p>
+          <span slot="instruction">SHIP TO or PORCH DROP OFF:</span>
+
+          <span slot="name">Jennifer Reyes</span>
+          <span slot="address">
+            163 Open Sky Road
+            <br />
+            Austin, TX 78737
+          </span>
+        </ContactCard>
+        <ContactCard>
+          <span slot="instruction">SHIP TO ONLY:</span>
+
+          <span slot="name">
+            Victory Medical
+            <br />
+            <em>c/o Jennifer Reyes - MASKS</em>
+          </span>
+          <span slot="address">
+            4303 Victory Drive
+            <br />
+            Austin, Texas 78704
+          </span>
+        </ContactCard>
+      </div>
+      <p>
+        We are creating teams to disperse the masks to clinics in the
+        surrounding areas. I routinely network with other Directors and Practice
+        Administrators in the Austin area and have direct contacts to share the
+        masks with.
+      </p>
     </div>
 
+    <!-- <iframe src="https://www.google.com/maps/d/embed?mid=1MPnTVNWY959yFKxns-1Gok0lcc2r4Aa2" width="640" height="480"></iframe> -->
 
-<!-- <iframe src="https://www.google.com/maps/d/embed?mid=1MPnTVNWY959yFKxns-1Gok0lcc2r4Aa2" width="640" height="480"></iframe> -->
-
-    
   </li>
 </ol>
 <h4 id="dropOff">Drop off locations:</h4>
-<div class='embed-container'><iframe title="drop off locations map" src='https://www.google.com/maps/d/embed?mid=1MPnTVNWY959yFKxns-1Gok0lcc2r4Aa2' width='640' height='480'></iframe></div>
+<div class="embed-container">
+  <iframe
+    title="drop off locations map"
+    src="https://www.google.com/maps/d/embed?mid=1MPnTVNWY959yFKxns-1Gok0lcc2r4Aa2"
+    width="640"
+    height="480" />
+</div>
 <dl>
-<dt>Honey Bee Quilt Store</dt><dd>All DROPS here by 3pm, please. Collection bin right outside the door. Ffyi: Honey Bee is open for online/phone orders and curbside pick-up. Thank you, Honey Bee! ;-) </dd>
-<dt>Austin Gift Company</dt><dd>ALL DROPS by 3pm, please. Collection bin right outside the door. Ffyi: Austin Gift Company is closed. Thank you, Austin Gift Company! ;-)</dd>
-<dt>Mask Cover DROP - Personal Residence</dt><dd>ALL DROPS here by 9pm, please. Please be mindful that this is a private residence. These will be safe / no contact porch drops. Thank you!</dd>
+  <dt>Honey Bee Quilt Store</dt>
+  <dd>
+    All DROPS here by 3pm, please. Collection bin right outside the door. Ffyi:
+    Honey Bee is open for online/phone orders and curbside pick-up. Thank you,
+    Honey Bee! ;-) <br>
+    <address>9308 Anderson Mill Rd, Austin, TX 78729</address>
+
+  </dd>
+  <dt>Tomlinson's Feed</dt>
+  <dd>
+    They open at 10am every day. ALL DROPS by 3pm, please. Collection bin right outside the door. Tomlinson's is open and wants to remain mindful about the traffic in their store, so please be respectful of their generosity. <br>
+    <address>4211 S Lamar Blvd Ste A23, Austin, TX 78704</address>
+  </dd>
+  <dt>Mask Cover DROP - Personal Residence</dt>
+  <dd>
+    ALL DROPS here by 9pm, please. Please be mindful that this is a private
+    residence. These will be safe / no contact porch drops. Thank you! <br>
+    <address>163 Open Sky Rd, Austin, TX 78737</address>
+  </dd>
 </dl>
 
-<Faq></Faq>
+<Faq />

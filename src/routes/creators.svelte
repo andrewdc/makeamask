@@ -89,9 +89,9 @@ dt {font-weight:bold;}
 </div>
 <ul>
 
-<li>
+<!-- <li>
 <SuperLink href="https://drive.google.com/file/d/1Gnmp7qOThe0jHu9us4_clfIKGAv-fBML/view?usp=sharing">Click to download pdf on how to sew an N95 cover</SuperLink>
-</li>
+</li> -->
 <li>
 <SuperLink href="https://www.facebook.com/mark.lewis.127/videos/3447045531977409/">Click to see tutorial on how to sew a surgical mask cover</SuperLink>
 </li>

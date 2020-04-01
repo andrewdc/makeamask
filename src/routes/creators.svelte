@@ -82,6 +82,10 @@
     font-size:1.5em;
     font-weight:400;
   }
+  .instructions p {
+    font-weight:400;
+    line-height:2em;
+  }
 </style>
 
 <svelte:head>
@@ -118,7 +122,7 @@
 <h3 class="learn">
   <img src="/icons/016-cut.svg" alt="sewing template" /> Step-By-Step Mask Instructions
 </h3>
-  <ol>
+  <ol class="instructions">
     <li>
       <p>
         Cut ONE piece of fabric at 10.5 inches by 7.5 inches and then TWO

@@ -51,11 +51,13 @@
   }
   .learn {
     display: flex;
-    flex-direction: column;
+    align-items:center;
+    /* flex-direction: column; */
     /* align-items:center; */
   }
   .learn img {
     width: 50px;
+    margin-right:20px;
   }
   .embed-container {
     margin-bottom: 2em;
@@ -76,6 +78,10 @@
     font-weight: bold;
   }
   img {width:100%;}
+  .downloads {
+    font-size:1.5em;
+    font-weight:400;
+  }
 </style>
 
 <svelte:head>
@@ -88,25 +94,30 @@
 <h2>How can I help create Masks?</h2>
 
 <h3 id="#learn" class="learn">
-  <img src="/icons/011-design.svg" alt="sewing template" />
-  Mask Cover Step-by-Step Tutorial
+ <img src="/icons/022-medical.svg" alt="sewing template" /> 
+ Learn How to Make a Mask Cover
 </h3>
 
 <div class='embed-container'><iframe title="Mask Tutorial Video" src='https://www.youtube.com/embed/S9RWII2-5_4' frameborder='0' allowfullscreen></iframe></div>
-<ul>
+<h3 class="learn">
+  <img src="/icons/011-design.svg" alt="sewing template" /> Download Instructions
+</h3>
+<ul class="downloads">
   <li>
     <SuperLink href="/Mask-Covers_Step-By-Step_Instructions.pdf">
-      Mask Covers Instructions PDF
+      CLICK TO DOWNLOAD TEMPLATE: Mask Covers Instructions PDF
     </SuperLink>
   </li>
   <li>
     <SuperLink href="/Mask-Covers_Step-By-Step_Instructions.docx">
-      Mask Covers Instructions docx
+      CLICK TO DOWNLOAD TEMPLATE: Mask Covers Instructions docx
     </SuperLink>
   </li>
 </ul>
 
-
+<h3 class="learn">
+  <img src="/icons/016-cut.svg" alt="sewing template" /> Step-By-Step Mask Instructions
+</h3>
   <ol>
     <li>
       <p>

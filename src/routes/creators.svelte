@@ -3,6 +3,7 @@
   import Button from "../components/Button.svelte";
   import SuperLink from "../components/SuperLink.svelte";
   import Faq from "../components/Faq.svelte";
+  import Image from "svelte-image";
 </script>
 
 <style>
@@ -62,7 +63,6 @@
     /* align-items:center; */
     flex-direction: column;
   }
-
   .embed-container {
     margin-bottom: 2em;
     position: relative;
@@ -94,13 +94,95 @@
 
 <h3 id="#learn" class="learn">
   <img src="/icons/011-design.svg" alt="sewing template" />
-  Sewing Tutorials
+  Mask Cover Step-by-Step Tutorial
 </h3>
-<div class="vids">
-  <style>
 
-  </style>
-  <div class="embed-container">
+<ul>
+  <li>
+    <SuperLink href="/Mask-Covers_Step-By-Step_Instructions.pdf">
+      Mask Covers Instructions PDF
+    </SuperLink>
+  </li>
+  <li>
+    <SuperLink href="/Mask-Covers_Step-By-Step_Instructions.docx">
+      Mask Covers Instructions docx
+    </SuperLink>
+  </li>
+</ul>
+<div class="vids">
+
+  <ol>
+    <li>
+      <p>
+        Cut ONE piece of fabric at 10.5 inches by 7.5 inches and then TWO
+        smaller pieces at 7.5 inches by 5.5 inches.
+        <br />
+        <Image src="/howto/IMG_9161.jpg" alt="paper template" />
+      </p>
+    </li>
+    <li>
+      <p>
+        Take the smaller pieces, turn them facedown and fold the boDom up approximately 3/4 inch. Stitch that. Do the same for the other smaller piece.
+        <br />
+        <Image src="/howto/IMG_9162.jpg" alt="paper template" />
+        <Image src="/howto/IMG_9163.jpg" alt="paper template" />
+        <Image src="/howto/IMG_9164.jpg" alt="paper template" />
+      </p>
+    </li>
+    <li>
+      <p>
+        Take the larger piece, lay it face up, and place one of the smaller pieces centered on the main piece along the top. The smaller piece should be facedown. The sewn (hem) part should be toward the middle of the larger fabric.
+Do this for both smaller pieces (one at top and one at bottom).
+        <br />
+        <Image src="/howto/IMG_9165.jpg" alt="paper template" />
+        <Image src="/howto/IMG_9166.jpg" alt="paper template" />
+        <Image src="/howto/IMG_9167.jpg" alt="paper template" />
+      </p>
+    </li>
+    <li>
+      <p>
+        After sewing both the smaller pieces to the larger piece.
+Turn the smaller pieces out, so that they are extended out from the larger piece, and iron them flat.
+        <br />
+        <Image src="/howto/IMG_9168.jpg" alt="paper template" />
+      </p>
+    </li>
+    <li>
+      <p>
+        Flip the larger piece facedown and then fold the smaller pieces back on top, so they are facing down toward the middle of the larger piece again. Iron flat.
+        <br />
+        <Image src="/howto/IMG_9169.jpg" alt="paper template" />
+      </p>
+    </li>
+    <li>
+      <p>
+        Holding it all together, flip it back over again so that the smaller pieces are under the larger piece and then you will accordion it two times to make the “folds” in the fabric. Each Hme making sure to get both the top and bottom pieces.
+        <br />
+        <Image src="/howto/IMG_9170.jpg" alt="paper template" />
+      </p>
+    </li>
+    <li>
+      <p>
+        Pin each fold as you go and then sew the edges approximately 1 inch from the end.
+        <br />
+        <Image src="/howto/IMG_9171.jpg" alt="paper template" />
+        <Image src="/howto/IMG_9172.jpg" alt="paper template" />
+        <Image src="/howto/IMG_9173.jpg" alt="paper template" />
+      </p>
+    </li>
+    <li>
+      <p>
+        Cut 1/4 inch elastic approximately 10 inches long. Secure the ends together overlapping approximately 1 inch to make a circle with the elastic. Fold each end of the mask cover over approximately 1 inch from the end (about where you have previously stitched). Place one elasHc circle, or an XL elastic hair tie, in the folded piece of the end, and then fold under just a little of the end to make a hem. Sew this down. It should be approximately 3/4 of an inch from the end of the fabric. Do this for both ends.
+        <br />
+        <Image src="/howto/IMG_9174.jpg" alt="paper template" />
+        <Image src="/howto/IMG_9175.jpg" alt="paper template" />
+        <Image src="/howto/IMG_9176.jpg" alt="paper template" />
+        <Image src="/howto/IMG_9177.jpg" alt="paper template" />
+        <Image src="/howto/IMG_9178.jpg" alt="paper template" />
+      </p>
+    </li>
+  </ol>
+  <!-- <div class="embed-container">
     <iframe
       title="Learn to Sew a Mask Video"
       src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fmark.lewis.127%2Fvideos%2F3447045531977409%2F&show_text=1"
@@ -122,18 +204,9 @@
       allow="accelerometer; autoplay; encrypted-media; gyroscope;
       picture-in-picture"
       allowfullscreen />
-  </div>
+  </div> -->
 
 </div>
-<ul>
-
-  <li>
-    <SuperLink
-      href="https://www.facebook.com/mark.lewis.127/videos/3447045531977409/">
-      Click to see tutorial on how to sew a surgical mask cover
-    </SuperLink>
-  </li>
-</ul>
 
 <h3>
   I HAVE AN IDEA OF HOW MANY MASKS I AM GOING TO MAKE, OR HAVE COMPLETED MAKING
@@ -232,19 +305,24 @@
   <dd>
     All DROPS here by 3pm, please. Collection bin right outside the door. Ffyi:
     Honey Bee is open for online/phone orders and curbside pick-up. Thank you,
-    Honey Bee! ;-) <br>
+    Honey Bee! ;-)
+    <br />
     <address>9308 Anderson Mill Rd, Austin, TX 78729</address>
 
   </dd>
   <dt>Tomlinson's Feed</dt>
   <dd>
-    They open at 10am every day. ALL DROPS by 3pm, please. Collection bin right outside the door. Tomlinson's is open and wants to remain mindful about the traffic in their store, so please be respectful of their generosity. <br>
+    They open at 10am every day. ALL DROPS by 3pm, please. Collection bin right
+    outside the door. Tomlinson's is open and wants to remain mindful about the
+    traffic in their store, so please be respectful of their generosity.
+    <br />
     <address>4211 S Lamar Blvd Ste A23, Austin, TX 78704</address>
   </dd>
   <dt>Mask Cover DROP - Personal Residence</dt>
   <dd>
     ALL DROPS here by 9pm, please. Please be mindful that this is a private
-    residence. These will be safe / no contact porch drops. Thank you! <br>
+    residence. These will be safe / no contact porch drops. Thank you!
+    <br />
     <address>163 Open Sky Rd, Austin, TX 78737</address>
   </dd>
 </dl>

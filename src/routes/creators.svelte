@@ -57,12 +57,6 @@
   .learn img {
     width: 50px;
   }
-  .vids {
-    display: flex;
-    justify-content: center;
-    /* align-items:center; */
-    flex-direction: column;
-  }
   .embed-container {
     margin-bottom: 2em;
     position: relative;
@@ -97,6 +91,7 @@
   Mask Cover Step-by-Step Tutorial
 </h3>
 
+<div class='embed-container'><iframe title="Mask Tutorial Video" src='https://www.youtube.com/embed/S9RWII2-5_4' frameborder='0' allowfullscreen></iframe></div>
 <ul>
   <li>
     <SuperLink href="/Mask-Covers_Step-By-Step_Instructions.pdf">
@@ -109,7 +104,7 @@
     </SuperLink>
   </li>
 </ul>
-<div class="vids">
+
 
   <ol>
     <li>
@@ -182,31 +177,7 @@ Turn the smaller pieces out, so that they are extended out from the larger piece
       </p>
     </li>
   </ol>
-  <!-- <div class="embed-container">
-    <iframe
-      title="Learn to Sew a Mask Video"
-      src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fmark.lewis.127%2Fvideos%2F3447045531977409%2F&show_text=1"
-      style="border:none;overflow:hidden"
-      scrolling="no"
-      frameborder="0"
-      allowTransparency="true"
-      allow="encrypted-media"
-      allowFullScreen="true" />
-  </div>
 
-  <div class="embed-container">
-    <iframe
-      title="Deaconess Health Mask Tutorial"
-      width="560"
-      height="315"
-      src="https://www.youtube.com/embed/9tBg0Os5FWQ"
-      frameborder="0"
-      allow="accelerometer; autoplay; encrypted-media; gyroscope;
-      picture-in-picture"
-      allowfullscreen />
-  </div> -->
-
-</div>
 <hr/>
 <h3>
   I HAVE AN IDEA OF HOW MANY MASKS I AM GOING TO MAKE, OR HAVE COMPLETED MAKING

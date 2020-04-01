@@ -3,7 +3,7 @@
   import Button from "../components/Button.svelte";
   import SuperLink from "../components/SuperLink.svelte";
   import Faq from "../components/Faq.svelte";
-  import Image from "svelte-image";
+  // import Image from "svelte-image";
 </script>
 
 <style>
@@ -117,16 +117,16 @@
         Cut ONE piece of fabric at 10.5 inches by 7.5 inches and then TWO
         smaller pieces at 7.5 inches by 5.5 inches.
         <br />
-        <Image src="/howto/IMG_9161.jpg" alt="paper template" />
+        <img src="/howto/IMG_9161.jpg" alt="paper template" />
       </p>
     </li>
     <li>
       <p>
         Take the smaller pieces, turn them facedown and fold the boDom up approximately 3/4 inch. Stitch that. Do the same for the other smaller piece.
         <br />
-        <Image src="/howto/IMG_9162.jpg" alt="paper template" />
-        <Image src="/howto/IMG_9163.jpg" alt="paper template" />
-        <Image src="/howto/IMG_9164.jpg" alt="paper template" />
+        <img src="/howto/IMG_9162.jpg" alt="paper template" />
+        <img src="/howto/IMG_9163.jpg" alt="paper template" />
+        <img src="/howto/IMG_9164.jpg" alt="paper template" />
       </p>
     </li>
     <li>
@@ -134,9 +134,9 @@
         Take the larger piece, lay it face up, and place one of the smaller pieces centered on the main piece along the top. The smaller piece should be facedown. The sewn (hem) part should be toward the middle of the larger fabric.
 Do this for both smaller pieces (one at top and one at bottom).
         <br />
-        <Image src="/howto/IMG_9165.jpg" alt="paper template" />
-        <Image src="/howto/IMG_9166.jpg" alt="paper template" />
-        <Image src="/howto/IMG_9167.jpg" alt="paper template" />
+        <img src="/howto/IMG_9165.jpg" alt="paper template" />
+        <img src="/howto/IMG_9166.jpg" alt="paper template" />
+        <img src="/howto/IMG_9167.jpg" alt="paper template" />
       </p>
     </li>
     <li>
@@ -144,41 +144,41 @@ Do this for both smaller pieces (one at top and one at bottom).
         After sewing both the smaller pieces to the larger piece.
 Turn the smaller pieces out, so that they are extended out from the larger piece, and iron them flat.
         <br />
-        <Image src="/howto/IMG_9168.jpg" alt="paper template" />
+        <img src="/howto/IMG_9168.jpg" alt="paper template" />
       </p>
     </li>
     <li>
       <p>
         Flip the larger piece facedown and then fold the smaller pieces back on top, so they are facing down toward the middle of the larger piece again. Iron flat.
         <br />
-        <Image src="/howto/IMG_9169.jpg" alt="paper template" />
+        <img src="/howto/IMG_9169.jpg" alt="paper template" />
       </p>
     </li>
     <li>
       <p>
         Holding it all together, flip it back over again so that the smaller pieces are under the larger piece and then you will accordion it two times to make the “folds” in the fabric. Each Hme making sure to get both the top and bottom pieces.
         <br />
-        <Image src="/howto/IMG_9170.jpg" alt="paper template" />
+        <img src="/howto/IMG_9170.jpg" alt="paper template" />
       </p>
     </li>
     <li>
       <p>
         Pin each fold as you go and then sew the edges approximately 1 inch from the end.
         <br />
-        <Image src="/howto/IMG_9171.jpg" alt="paper template" />
-        <Image src="/howto/IMG_9172.jpg" alt="paper template" />
-        <Image src="/howto/IMG_9173.jpg" alt="paper template" />
+        <img src="/howto/IMG_9171.jpg" alt="paper template" />
+        <img src="/howto/IMG_9172.jpg" alt="paper template" />
+        <img src="/howto/IMG_9173.jpg" alt="paper template" />
       </p>
     </li>
     <li>
       <p>
         Cut 1/4 inch elastic approximately 10 inches long. Secure the ends together overlapping approximately 1 inch to make a circle with the elastic. Fold each end of the mask cover over approximately 1 inch from the end (about where you have previously stitched). Place one elasHc circle, or an XL elastic hair tie, in the folded piece of the end, and then fold under just a little of the end to make a hem. Sew this down. It should be approximately 3/4 of an inch from the end of the fabric. Do this for both ends.
         <br />
-        <Image src="/howto/IMG_9174.jpg" alt="paper template" />
-        <Image src="/howto/IMG_9175.jpg" alt="paper template" />
-        <Image src="/howto/IMG_9176.jpg" alt="paper template" />
-        <Image src="/howto/IMG_9177.jpg" alt="paper template" />
-        <Image src="/howto/IMG_9178.jpg" alt="paper template" />
+        <img src="/howto/IMG_9174.jpg" alt="paper template" />
+        <img src="/howto/IMG_9175.jpg" alt="paper template" />
+        <img src="/howto/IMG_9176.jpg" alt="paper template" />
+        <img src="/howto/IMG_9177.jpg" alt="paper template" />
+        <img src="/howto/IMG_9178.jpg" alt="paper template" />
       </p>
     </li>
   </ol>

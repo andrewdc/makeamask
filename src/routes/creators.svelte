@@ -75,6 +75,7 @@
   dt {
     font-weight: bold;
   }
+  img {width:100%;}
 </style>
 
 <svelte:head>
@@ -167,8 +168,10 @@ Turn the smaller pieces out, so that they are extended out from the larger piece
     </li>
     <li>
       <p>
-        Cut 1/4 inch elastic approximately 10 inches long. Secure the ends together overlapping approximately 1 inch to make a circle with the elastic.<br> Fold each end of the mask cover over approximately 1 inch from the end (about where you have previously stitched).<br> Place one elastic circle, or an XL elastic hair tie, in the folded piece of the end, and then fold under just a little of the end to make a hem. <br>Sew this down.<br> It should be approximately 3/4 of an inch from the end of the fabric. <br> Do this for both ends.
+        Cut 1/4 inch elastic approximately 10 inches long. Secure the ends together overlapping approximately 1 inch to make a circle with the elastic.<br> Fold each end of the mask cover over approximately 1 inch from the end (about where you have previously stitched).<br> Place one elastic circle, or an XL elastic hair tie (if using hair tie, it needs to measure 5" across when folded in half), in the folded piece of the end, and then fold under just a little of the end to make a hem. <br>Sew this down.<br> It should be approximately 3/4 of an inch from the end of the fabric. <br> Do this for both ends.
         <br />
+
+        <img src="/howto/elastic.jpg" alt="paper template" />
         <img src="/howto/IMG_9174.jpg" alt="paper template" />
         <img src="/howto/IMG_9175.jpg" alt="paper template" />
         <img src="/howto/IMG_9176.jpg" alt="paper template" />
@@ -194,7 +197,7 @@ Turn the smaller pieces out, so that they are extended out from the larger piece
       </p>
       <p>
         IF POSSIBLE: PLEASE SEND A FEW GALLON SIZE ZIPLOCK BAGS WITH THE MASKS
-        AS WE ARE TRYING TO PACKAGE THESE IN SETS OF 20 TO DISPERSE OUT.
+        AS WE ARE TRYING TO PACKAGE THESE IN <strong>SETS OF 20</strong> TO DISPERSE OUT.
       </p>
       <p>
         ALSO, INCLUDE A NOTE IF THEY HAVE BEEN LAUNDERED “AFTER” THE SEWING

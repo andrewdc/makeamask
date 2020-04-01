@@ -122,7 +122,7 @@
     </li>
     <li>
       <p>
-        Take the smaller pieces, turn them facedown and fold the boDom up approximately 3/4 inch. Stitch that. Do the same for the other smaller piece.
+        Take the smaller pieces, turn them facedown and fold the bottom up approximately 3/4 inch. <br>Stitch that.<br> Do the same for the other smaller piece.
         <br />
         <img src="/howto/IMG_9162.jpg" alt="paper template" />
         <img src="/howto/IMG_9163.jpg" alt="paper template" />
@@ -131,7 +131,7 @@
     </li>
     <li>
       <p>
-        Take the larger piece, lay it face up, and place one of the smaller pieces centered on the main piece along the top. The smaller piece should be facedown. The sewn (hem) part should be toward the middle of the larger fabric.
+        Take the larger piece, lay it face up, and place one of the smaller pieces centered on the main piece along the top. <br>The smaller piece should be facedown. <br>The sewn (hem) part should be toward the middle of the larger fabric.<br>
 Do this for both smaller pieces (one at top and one at bottom).
         <br />
         <img src="/howto/IMG_9165.jpg" alt="paper template" />
@@ -141,7 +141,7 @@ Do this for both smaller pieces (one at top and one at bottom).
     </li>
     <li>
       <p>
-        After sewing both the smaller pieces to the larger piece.
+        After sewing both the smaller pieces to the larger piece.<br>
 Turn the smaller pieces out, so that they are extended out from the larger piece, and iron them flat.
         <br />
         <img src="/howto/IMG_9168.jpg" alt="paper template" />
@@ -149,14 +149,14 @@ Turn the smaller pieces out, so that they are extended out from the larger piece
     </li>
     <li>
       <p>
-        Flip the larger piece facedown and then fold the smaller pieces back on top, so they are facing down toward the middle of the larger piece again. Iron flat.
+        Flip the larger piece facedown and then fold the smaller pieces back on top, so they are facing down toward the middle of the larger piece again.<br> Iron flat.
         <br />
         <img src="/howto/IMG_9169.jpg" alt="paper template" />
       </p>
     </li>
     <li>
       <p>
-        Holding it all together, flip it back over again so that the smaller pieces are under the larger piece and then you will accordion it two times to make the “folds” in the fabric. Each Hme making sure to get both the top and bottom pieces.
+        Holding it all together, flip it back over again so that the smaller pieces are under the larger piece and then you will accordion it two times to make the “folds” in the fabric.<br> Each time making sure to get both the top and bottom pieces.
         <br />
         <img src="/howto/IMG_9170.jpg" alt="paper template" />
       </p>
@@ -172,7 +172,7 @@ Turn the smaller pieces out, so that they are extended out from the larger piece
     </li>
     <li>
       <p>
-        Cut 1/4 inch elastic approximately 10 inches long. Secure the ends together overlapping approximately 1 inch to make a circle with the elastic. Fold each end of the mask cover over approximately 1 inch from the end (about where you have previously stitched). Place one elasHc circle, or an XL elastic hair tie, in the folded piece of the end, and then fold under just a little of the end to make a hem. Sew this down. It should be approximately 3/4 of an inch from the end of the fabric. Do this for both ends.
+        Cut 1/4 inch elastic approximately 10 inches long. Secure the ends together overlapping approximately 1 inch to make a circle with the elastic.<br> Fold each end of the mask cover over approximately 1 inch from the end (about where you have previously stitched).<br> Place one elastic circle, or an XL elastic hair tie, in the folded piece of the end, and then fold under just a little of the end to make a hem. <br>Sew this down.<br> It should be approximately 3/4 of an inch from the end of the fabric. <br> Do this for both ends.
         <br />
         <img src="/howto/IMG_9174.jpg" alt="paper template" />
         <img src="/howto/IMG_9175.jpg" alt="paper template" />
@@ -207,7 +207,7 @@ Turn the smaller pieces out, so that they are extended out from the larger piece
   </div> -->
 
 </div>
-
+<hr/>
 <h3>
   I HAVE AN IDEA OF HOW MANY MASKS I AM GOING TO MAKE, OR HAVE COMPLETED MAKING
   THEM….HOW CAN I GET THE COMPLETED MASKS TO HEALTHCARE WORKERS IN AUSTIN?

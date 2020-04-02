@@ -292,16 +292,23 @@ Turn the smaller pieces out, so that they are extended out from the larger piece
 <dl>
   <dt>Honey Bee Quilt Store</dt>
   <dd>
-    All DROPS here <strong>between 10am and 3pm</strong>, please. Collection bin right outside the door. Ffyi:
-    Honey Bee is open for online/phone orders and curbside pick-up. Thank you,
-    Honey Bee! ;-)
+M-Sa 10AM-3PM <br> 
+Su Closed <br>
+Honey Bee Quilt Shop <br>
+9308 Anderson Mill Rd. Suite 300 <br>
+Austin, TX 78729 <br>
+<em>
+<strong>All DROPS here by 3pm, please.</strong>
+  Collection bin right outside the door. Fyi:
+      Honey Bee is open for online/phone orders and curbside pick-up. Thank you,
+      Honey Bee! ;-)
+</em>
     <br />
-    <address>9308 Anderson Mill Rd, Austin, TX 78729</address>
 
   </dd>
   <dt>Tomlinson's Feed</dt>
   <dd>
-    They open at 10am every day. ALL DROPS by 3pm, please. Collection bin right
+    They <strong>open at 10am every day. ALL DROPS by 3pm, please</strong>. Collection bin right
     outside the door. Tomlinson's is open and wants to remain mindful about the
     traffic in their store, so please be respectful of their generosity.
     <br />
@@ -309,7 +316,7 @@ Turn the smaller pieces out, so that they are extended out from the larger piece
   </dd>
   <dt>Mask Cover DROP - Personal Residence</dt>
   <dd>
-    ALL DROPS here by 9pm, please. Please be mindful that this is a private
+    <strong>ALL DROPS here by 9pm, please.</strong> Please be mindful that this is a private
     residence. These will be safe / no contact porch drops. Thank you!
     <br />
     <address>163 Open Sky Rd, Austin, TX 78737</address>

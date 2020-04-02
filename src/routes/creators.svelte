@@ -292,7 +292,7 @@ Turn the smaller pieces out, so that they are extended out from the larger piece
 <dl>
   <dt>Honey Bee Quilt Store</dt>
   <dd>
-    All DROPS here by 3pm, please. Collection bin right outside the door. Ffyi:
+    All DROPS here <strong>between 10am and 3pm</strong>, please. Collection bin right outside the door. Ffyi:
     Honey Bee is open for online/phone orders and curbside pick-up. Thank you,
     Honey Bee! ;-)
     <br />

@@ -50,7 +50,7 @@ font-size:2em;
   /* display:flex;
   justify-content: center;
   flex-wrap: wrap; */
-      display: grid;
+    display: grid;
     grid-template-columns: repeat(auto-fill, minmax(274px, 1fr));
     grid-gap: 10px;
     grid-auto-rows: minmax(180px, auto);
@@ -63,7 +63,11 @@ font-size:2em;
     font-weight: bold;
     border-radius: 5px;
 } */
-
+@media (max-width:510px){
+  .buttons {
+    flex-direction: column;
+  }
+}
 
 	 @media (max-width: 890px) {
      h1 {

@@ -100,6 +100,7 @@ $pink-shadow: #e2f8ff;
   margin-top:25px;
   font-size:0.8em;
   text-align:center;
+  word-break:break-all;
 }
   @media (max-width: 510px) {
     .button-link {

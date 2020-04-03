@@ -6,96 +6,12 @@
   // import Image from "svelte-image";
 </script>
 
-<style>
-  .contacts {
-    display: flex;
-    flex-wrap: wrap;
-    margin: 20px 0;
-  }
-  :global(h3) {
-    font-size: 1.6em;
-    font-weight: 400;
-    padding: 0.6em 0 0.6em 0;
-    margin: 0 0 1em 0;
-  }
-
-  :global(h4) {
-    font-size: 1.5em;
-    border-bottom: 1px solid #55b9f3;
-    padding: 0 0 0.2em 0;
-    margin: 0 0 1em 0;
-  }
-
-  ol {
-    list-style: none;
-    counter-reset: my-awesome-counter;
-    display: flex;
-    flex-wrap: wrap;
-    margin: 0;
-    padding: 0;
-  }
-  ol li {
-    counter-increment: my-awesome-counter;
-    display: flex;
-    width: 100%;
-    /* font-size: 0.8rem; */
-    margin-bottom: 2rem;
-  }
-  ol li::before {
-    content: "0" counter(my-awesome-counter);
-    font-weight: bold;
-    font-size: 3rem;
-    margin-right: 0.5rem;
-    font-family: "alegreya", serif;
-    line-height: 1;
-  }
-  .learn {
-    display: flex;
-    align-items:center;
-    /* flex-direction: column; */
-    /* align-items:center; */
-  }
-  .learn img {
-    width: 50px;
-    margin-right:20px;
-  }
-  .embed-container {
-    margin-bottom: 2em;
-    position: relative;
-    padding-bottom: 56.25%;
-    height: 0;
-    overflow: hidden;
-    max-width: 100%;
-  }
-  .embed-container iframe {
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-  }
-  dt {
-    font-weight: bold;
-  }
-  img {width:100%;}
-  .downloads {
-    font-size:1.5em;
-    font-weight:400;
-  }
-  .instructions p {
-    font-weight:400;
-    line-height:2em;
-  }
-</style>
-
 <svelte:head>
   <title>Mask Creators - Make A Mask</title>
   <meta
     name="Description"
     content="How do I sew a mask? Learn here with tutorials and mask patterns" />
 </svelte:head>
-
-<h2>How can I help create Masks?</h2>
 
 <h3 id="#learn" class="learn">
  <img src="/icons/022-medical.svg" alt="sewing template" /> 
@@ -123,6 +39,22 @@
   <img src="/icons/016-cut.svg" alt="sewing template" /> Step-By-Step Mask Instructions
 </h3>
   <ol class="instructions">
+  <li>
+  <div>
+   <h3 class="learn warn">
+    
+   Please carefully read the safety requirements before proceeding
+    </h3>
+      <Button
+        error="true"
+        newtab="true"
+        href="https://docs.google.com/document/d/1xUob24AwALtnMt2JR7jbRSIFzlRhQQvivQLfwp3N_pI/edit?usp=sharing">
+        <img slot="icon" src="/icons/006-stop.svg"  style="width:50px;" alt="stop" /> 
+        <span slot="text">View Safety Requirements</span>
+      </Button>
+    </div>
+
+  </li>
     <li>
       <p>
         Cut ONE piece of fabric at 10.5 inches by 7.5 inches and then TWO
@@ -324,3 +256,87 @@ Austin, TX 78729 <br>
 </dl>
 
 <Faq />
+
+
+<style>
+  .contacts {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0;
+  }
+  :global(h3) {
+    font-size: 1.6em;
+    font-weight: 400;
+    padding: 0.6em 0 0.6em 0;
+    margin: 0 0 1em 0;
+  }
+
+  :global(h4) {
+    font-size: 1.5em;
+    border-bottom: 1px solid #55b9f3;
+    padding: 0 0 0.2em 0;
+    margin: 0 0 1em 0;
+  }
+
+  ol {
+    list-style: none;
+    counter-reset: my-awesome-counter;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0;
+    padding: 0;
+  }
+  ol li {
+    counter-increment: my-awesome-counter;
+    display: flex;
+    width: 100%;
+    /* font-size: 0.8rem; */
+    margin-bottom: 2rem;
+  }
+  ol li::before {
+    content: "0" counter(my-awesome-counter);
+    font-weight: bold;
+    font-size: 3rem;
+    margin-right: 0.5rem;
+    font-family: "alegreya", serif;
+    line-height: 1;
+  }
+  .learn {
+    display: flex;
+    align-items:center;
+    /* flex-direction: column; */
+    /* align-items:center; */
+  }
+  .warn {color:rgb(210, 20, 20)}
+  .learn img {
+    width: 50px;
+    margin-right:20px;
+  }
+  .embed-container {
+    margin-bottom: 2em;
+    position: relative;
+    padding-bottom: 56.25%;
+    height: 0;
+    overflow: hidden;
+    max-width: 100%;
+  }
+  .embed-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+  dt {
+    font-weight: bold;
+  }
+  img {width:100%;}
+  .downloads {
+    font-size:1.5em;
+    font-weight:400;
+  }
+  .instructions p {
+    font-weight:400;
+    line-height:2em;
+  }
+</style>

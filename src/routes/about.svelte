@@ -49,5 +49,7 @@ import Button from '../components/Button.svelte';
 
 <h5>Many thanks to the talented iconography of:</h5>
 
-<div><a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>,
- <a href="https://www.flaticon.com/authors/darius-dan" title="Darius Dan">Darius Dan</a>, and <a href="https://www.flaticon.com/authors/nhor-phai" title="Nhor Phai">Nhor Phai</a> from <a href="https://www.flaticon.com/"     title="Flaticon">www.flaticon.com</a></div>
+<p><a href="https://www.flaticon.com/authors/freepik" title="Freepik">Freepik</a>,
+ <a href="https://www.flaticon.com/authors/darius-dan" title="Darius Dan">Darius Dan</a>, and <a href="https://www.flaticon.com/authors/nhor-phai" title="Nhor Phai">Nhor Phai</a> from <a href="https://www.flaticon.com/"     title="Flaticon">www.flaticon.com</a></p>
+
+	<p>Also, shout out to <a href="https://codepen.io/kathykato">Katherine Kato</a> for the magnificent button design!</p>

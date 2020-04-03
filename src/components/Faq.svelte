@@ -5,6 +5,17 @@
 <div id="faq">
   <h2>Frequently Asked Questions</h2>
 
+<h3>WHAT SAFTEY MEASURES SHOULD I TAKE</h3>
+<p>We are glad you asked. Please carefully read the safety requirements before proceeding</p>
+<p>
+      <Button
+        error="true"
+        newtab="true"
+        href="https://docs.google.com/document/d/1xUob24AwALtnMt2JR7jbRSIFzlRhQQvivQLfwp3N_pI/edit?usp=sharing">
+        <img slot="icon" src="/icons/006-stop.svg"  style="width:50px;" alt="stop" /> 
+        <span slot="text">View Safety Requirements</span>
+      </Button>
+</p>
 <h3>WHERE ARE THE MASKS BEING DISTRIBUTED?</h3>
 <p>
   Make-A-Mask was started in Austin, Texas by Jennifer Reyes, the Director of Clinical Operations  for the Victory Medical Urgent Care and Family Practice clinics. She reached out online with a desperate plea for help in sewing masks for her employees who desperately need Personal Protective Equipment. Through the power of social media and a viral facebook page, thousands  across the USA have joined forces to drop off and/or ship sewn masks to the Austin area to help healthcare workers.

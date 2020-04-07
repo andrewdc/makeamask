@@ -47,7 +47,7 @@ $pink-shadow: #e2f8ff;
   text-decoration: none;
   font-size: inherit;
   font-family: inherit;
-  margin:10px;
+  margin:10px 10px 20px 10px;
   display:flex;
   flex:1 0 auto;
   flex-direction:column;

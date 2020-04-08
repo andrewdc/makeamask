@@ -339,4 +339,9 @@ Austin, TX 78729 <br>
     font-weight:400;
     line-height:2em;
   }
+  @media (max-width:510px){
+  ol li::before {
+    font-size: 1.5rem;
+  }
+}
 </style>

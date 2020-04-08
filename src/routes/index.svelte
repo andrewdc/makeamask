@@ -1,8 +1,9 @@
 <script>
  import Button from "../components/Button.svelte";
  import Faq from "../components/Faq.svelte";
+ import MediaLinks from "../components/MediaLinks.svelte";
   import { onMount } from "svelte";
-
+    const COL_COUNT = 2; // set this to however many columns you want
   onMount(() => {
     if (window.netlifyIdentity) {
       window.netlifyIdentity.on("init", user => {
@@ -14,9 +15,10 @@
       });
     }
   });
+
 </script>
 
-<style>
+<style lang="scss">
   h1,
   p {
     text-align: left;
@@ -46,26 +48,10 @@ font-size:2em;
   line-height: 1.2;
   color:rgb(74, 132, 157);
 }
-.media {
-  /* display:flex;
-  justify-content: center;
-  flex-wrap: wrap; */
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(274px, 1fr));
-    grid-gap: 10px;
-    grid-auto-rows: minmax(180px, auto);
-    grid-auto-flow: dense;
-    padding: 10px;
-}
-/*iframe {
-    padding: 1rem;
-    font-size: 14px;
-    font-weight: bold;
-    border-radius: 5px;
-} */
 @media (max-width:510px){
   .buttons {
     flex-direction: column;
+    align-items: initial;
   }
 }
 
@@ -110,18 +96,7 @@ font-size:2em;
 </div>
 
 <h2>In the News</h2>
-<div class="media">
 
-<iframe title="Austin group helps deliver thousands of homemade masks to health care workers in need" src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FKVUEinsider%2Fposts%2F10158656599466178&width=auto" width="auto" height="529" style="border:none;overflow:hidden;flex:1 0 auto;border:none;overflow:hidden;width:100%;max-width:400px;" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
-
-<iframe title="Las fundas de Telemundo Austin hacen una máscara" src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FOliviaMartinezTelemundoAustin%2Fposts%2F1927382870731139&width=auto" width="auto" height="636" style="border:none;overflow:hidden;flex:1 0 auto;border:none;overflow:hidden;width:100%;max-width:400px;" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
-
-<iframe title="Community Impact Story" src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FimpactnewsSWA%2Fposts%2F2804351129618793&width=auto" width="auto" height="636" style="border:none;overflow:hidden;flex:1 0 auto;border:none;overflow:hidden;width:100%;max-width:400px;" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
-
-<iframe title="kxan News Story" src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FKXANnews%2Fposts%2F10157585767123037&width=auto" width="auto" height="455" style="border:none;overflow:hidden;flex:1 0 auto;border:none;overflow:hidden;width:100%;max-width:400px;" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
-
-<iframe title="Fashionable Austin Story" src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FFashionablyAustin%2Fposts%2F10156885842750927&width=auto" width="auto" height="620" style="flex:1 0 auto;border:none;overflow:hidden;width:100%;max-width:400px;" scrolling="no" frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
-
-</div>
+<MediaLinks></MediaLinks>
 
 <Faq></Faq>

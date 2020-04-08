@@ -106,7 +106,7 @@ $pink-shadow: #e2f8ff;
     .button-link {
       font-size:1em;
       margin:0px;
-      flex: 1 0 50%;
+      flex: 1 0 100%;
       transform:scale(0.8);
     }
   }

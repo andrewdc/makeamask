@@ -224,11 +224,10 @@ Turn the smaller pieces out, so that they are extended out from the larger piece
 <dl>
   <dt>Honey Bee Quilt Store</dt>
   <dd>
+<address>9308 Anderson Mill Rd. Suite 300 <br>
+Austin, TX 78729 </address><br>
 M-Sa 10AM-3PM <br> 
 Su Closed <br>
-Honey Bee Quilt Shop <br>
-9308 Anderson Mill Rd. Suite 300 <br>
-Austin, TX 78729 <br>
 <em>
 <strong>All DROPS here by 3pm, please.</strong>
   Collection bin right outside the door. Fyi:
@@ -238,20 +237,31 @@ Austin, TX 78729 <br>
     <br />
 
   </dd>
+  <dt>Sew Much More</dt>
+  <dd> 
+<address>3010 W. Anderson Lane<br>
+Austin, TX 78750</address><br>
+Website: <a href="www.sewaustin.com">www.sewaustin.com</a><br>
+<strong>Hours right now. 10-4 Monday -Friday</strong>
+Store is actually closed but someone is there these hours and days<br>
+Store phone number. Is 512 452-3166<br>
+Contact is Amanda<br>
+  </dd>
   <dt>Tomlinson's Feed</dt>
   <dd>
+   <address>4211 S Lamar Blvd Ste A23, Austin, TX 78704</address>
+       <br />
     They <strong>open at 10am every day. ALL DROPS by 3pm, please</strong>. Collection bin right
     outside the door. Tomlinson's is open and wants to remain mindful about the
     traffic in their store, so please be respectful of their generosity.
-    <br />
-    <address>4211 S Lamar Blvd Ste A23, Austin, TX 78704</address>
   </dd>
   <dt>Mask Cover DROP - Personal Residence</dt>
   <dd>
+  <address>163 Open Sky Rd.<br> 
+  Austin, TX 78737</address>
+  <br>
     <strong>ALL DROPS here by 9pm, please.</strong> Please be mindful that this is a private
     residence. These will be safe / no contact porch drops. Thank you!
-    <br />
-    <address>163 Open Sky Rd, Austin, TX 78737</address>
   </dd>
 </dl>
 
@@ -329,6 +339,9 @@ Austin, TX 78729 <br>
   }
   dt {
     font-weight: bold;
+  }
+  dd {
+    padding-bottom:1em;
   }
   img {width:100%;}
   .downloads {

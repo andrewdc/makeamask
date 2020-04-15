@@ -5,6 +5,11 @@ const stories = [
   imgsrc: 'kxan2.jpg',
   alt: 'Kxan Second Story'
  },
+{
+  link: 'https://www.ucaoa.org/LinkClick.aspx?fileticket=vFMZqoU3jA0%3d&portalid=80',
+  imgsrc: 'uca.jpg',
+  alt: 'Urgent Care Association'
+ },
  {
   link: 'https://www.kvue.com/article/news/health/coronavirus/coronavirus-austin-homemade-masks-healthcare-workers/269-b1fbb5f5-06a8-4e6d-9ea1-dc837017bf61',
   imgsrc: 'kvue.jpg',

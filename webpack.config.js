@@ -26,11 +26,13 @@ module.exports = {
               dev,
               hydratable: true,
               hotReload: false, // pending https://github.com/sveltejs/svelte/issues/2377
-              preprocess: sveltePreprocess({}),
-            },
-          },
-        },
-      ],
+              preprocess: sveltePreprocess({
+                ...image()
+              })
+            }
+          }
+        }
+      ]
     },
     mode,
     plugins: [
@@ -38,10 +40,10 @@ module.exports = {
       // dev && new webpack.HotModuleReplacementPlugin(),
       new webpack.DefinePlugin({
         "process.browser": true,
-        "process.env.NODE_ENV": JSON.stringify(mode),
-      }),
+        "process.env.NODE_ENV": JSON.stringify(mode)
+      })
     ].filter(Boolean),
-    devtool: dev && "inline-source-map",
+    devtool: dev && "inline-source-map"
   },
 
   server: {
@@ -60,21 +62,23 @@ module.exports = {
               css: false,
               generate: "ssr",
               dev,
-              preprocess: sveltePreprocess({}),
-            },
-          },
-        },
-      ],
+              preprocess: sveltePreprocess({
+                ...image()
+              }),
+            }
+          }
+        }
+      ]
     },
     mode: process.env.NODE_ENV,
     performance: {
-      hints: false, // it doesn't matter if server.js is large
-    },
+      hints: false // it doesn't matter if server.js is large
+    }
   },
 
   serviceworker: {
     entry: config.serviceworker.entry(),
     output: config.serviceworker.output(),
-    mode: process.env.NODE_ENV,
-  },
+    mode: process.env.NODE_ENV
+  }
 };

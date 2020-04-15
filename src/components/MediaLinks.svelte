@@ -1,5 +1,10 @@
 <script>
 const stories = [
+{
+  link: 'https://www.kxan.com/news/coronavirus/make-a-mask-providing-much-needed-mask-covers-to-austin-medical-workers/',
+  imgsrc: 'kxan2.jpg',
+  alt: 'Kxan Second Story'
+ },
  {
   link: 'https://www.kvue.com/article/news/health/coronavirus/coronavirus-austin-homemade-masks-healthcare-workers/269-b1fbb5f5-06a8-4e6d-9ea1-dc837017bf61',
   imgsrc: 'kvue.jpg',

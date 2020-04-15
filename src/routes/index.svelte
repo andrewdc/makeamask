@@ -75,7 +75,6 @@ font-size:2em;
 </svelte:head>
 
 <h1>Make a Mask</h1>
-
 <p class="quote">
   Help keep our Healthcare workers in the Austin, TX area safe! They are in dire need of Personal Protective Equipment, especially masks, for their safety. These can’t be purchased through retailers.
 </p>

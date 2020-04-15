@@ -242,7 +242,7 @@ Su Closed <br>
 <address>3010 W. Anderson Lane<br>
 Austin, TX 78750</address><br>
 Website: <a href="www.sewaustin.com">www.sewaustin.com</a><br>
-<strong>Hours: 10-4 Monday -Friday</strong><br>
+<strong>Hours: 10-4 Monday - Friday</strong><br>
 Store is actually closed but someone is there these hours and days<br>
 Store phone number. Is 512 452-3166<br>
 Contact is Amanda<br>

@@ -117,5 +117,5 @@ $pink-shadow: #e2f8ff;
   <slot name="text"></slot>
 </a>
 {#if error}
-<div class="small">If you recieve an error above try: <a href="{href}">{href}</a></div>
+<div class="small">If you receive an error above try: <a href="{href}">{href}</a></div>
 {/if}

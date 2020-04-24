@@ -26,33 +26,57 @@ a:hover ~ a {
 
 .container a:focus,
 .container a:hover {
-  transform: scale(1.5);
+  transform: scale(2.5);
   z-index: 1;
 }
 
 </style>
 
 <div class="container">
- <a href="#1">
+ <!-- <a href="#1">
   <Image class="img" src="gallery/gallery1.jpg"></Image>
- </a>
- <a href="#2">
+ </a> -->
+ <a href="/about">
  <Image class="img" src="gallery/gallery2.jpg"></Image>
  </a>
- <a href="#3">
+ <a href="/about">
  <Image class="img" src="gallery/gallery3.jpg"></Image>
  </a>
- <a href="#4">
+ <a href="/about">
  <Image class="img" src="gallery/gallery4.jpg"></Image>
  </a>
- <a href="#5">
+ <a href="/about">
  <Image class="img" src="gallery/gallery5.jpg"></Image>
  </a>
- <a href="#6">
+ <!-- <a href="#6">
  <Image class="img" src="gallery/gallery6.jpg"></Image>
  </a>
  <a href="#7">
  <Image class="img" src="gallery/gallery7.jpg"></Image>
+ </a> -->
+ <!-- <a href="#8">
+ <Image class="img" src="gallery/gallery8.jpg"></Image>
+ </a> -->
+ <a href="/about">
+ <Image class="img" src="gallery/gallery9.jpg"></Image>
  </a>
+ <!-- <a href="#10">
+ <Image class="img" src="gallery/gallery10.jpg"></Image>
+ </a> -->
+ <a href="#11">
+ <Image class="img" src="gallery/gallery11.jpg"></Image>
+ </a>
+ <a href="#12">
+ <Image class="img" src="gallery/gallery12.jpg"></Image>
+ </a>
+ <!-- <a href="#13">
+ <Image class="img" src="gallery/gallery13.jpg"></Image>
+ </a> -->
+ <a href="#14">
+ <Image class="img" src="gallery/gallery14.jpg"></Image>
+ </a>
+ <!-- <a href="#15">
+ <Image class="img" src="gallery/gallery15.jpg"></Image>
+ </a> -->
 
 </div>

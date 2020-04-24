@@ -76,7 +76,7 @@ font-size:2em;
 
 <h1>Make a Mask</h1>
 <p class="quote">
-  Help keep our Healthcare workers in the Austin, TX area safe! They are in dire need of Personal Protective Equipment, especially masks, for their safety. These can’t be purchased through retailers.
+  Help keep our Healthcare workers in the Austin, TX area safe! They are in dire need of Personal Protective Equipment, especially masks, for their safety. All masks are being donated.
 </p>
 <div class="buttons">
 
